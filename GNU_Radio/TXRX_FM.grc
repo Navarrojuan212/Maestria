@@ -33,46 +33,67 @@ options:
     state: enabled
 
 blocks:
-- name: Frec
+- name: Frec_Tomada
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frecuencia variable entre 80MHz y 480MHz - Rx
+    label: Frecuencia variable entre 80MHz y 480MHz - Rx_A1
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 102.3e6
+    value: 107.15e6
     widget: counter_slider
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [344, 28.0]
+    coordinate: [336, 20.0]
     rotation: 0
     state: true
-- name: Frec1
+- name: Frec_TxRx_A1
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frecuencia variable entre 80MHz y 480MHz - TX
+    label: Frecuencia variable entre 80MHz y 480MHz - TXRX_A1
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 102.3e6
+    value: 400e6
     widget: counter_slider
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [656, 28.0]
+    coordinate: [664, 20.0]
+    rotation: 0
+    state: true
+- name: Frec_TxRx_B1
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: Frecuencia variable entre 1MHz y 250MHz - TxRx_B1
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: 70e6
+    step: 0.1e6
+    stop: 500e6
+    value: 100e6
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [656, 156.0]
     rotation: 0
     state: true
 - name: Gain
@@ -80,7 +101,7 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Ganancia RF Rx
+    label: Ganancia RF Rx_A1
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
@@ -93,15 +114,15 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [520, 28.0]
+    coordinate: [512, 20.0]
     rotation: 0
     state: true
-- name: Gain1
+- name: Gain_TxRx_A1
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Ganancia RF Tx
+    label: Ganancia RF TxRx_A1
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
@@ -114,7 +135,28 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [832, 28.0]
+    coordinate: [840, 20.0]
+    rotation: 0
+    state: true
+- name: Gain_TxRx_B1
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: Ganancia RF TxRx_B1
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: '0'
+    step: '1'
+    stop: '80'
+    value: '30'
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [840, 148.0]
     rotation: 0
     state: true
 - name: samp_rate
@@ -127,6 +169,23 @@ blocks:
     bus_source: false
     bus_structure: null
     coordinate: [184, 12]
+    rotation: 0
+    state: enabled
+- name: analog_const_source_x_0
+  id: analog_const_source_x
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    const: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    type: complex
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [776, 388.0]
     rotation: 0
     state: enabled
 - name: dc_blocker_xx_0
@@ -144,7 +203,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [304, 172.0]
+    coordinate: [368, 212.0]
     rotation: 0
     state: true
 - name: freq_xlating_fir_filter_xxx_0
@@ -164,7 +223,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [480, 172.0]
+    coordinate: [568, 300.0]
     rotation: 0
     state: true
 - name: qtgui_freq_sink_x_0
@@ -198,7 +257,7 @@ blocks:
     color9: '"dark green"'
     comment: ''
     ctrlpanel: 'True'
-    fc: Frec
+    fc: Frec_Tomada
     fftsize: '1024'
     freqhalf: 'True'
     grid: 'False'
@@ -245,10 +304,10 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [688, 308.0]
+    coordinate: [248, 484.0]
     rotation: 0
     state: true
-- name: uhd_usrp_sink_0
+- name: uhd_usrp_sink_1_0
   id: uhd_usrp_sink
   parameters:
     affinity: ''
@@ -317,8 +376,8 @@ blocks:
     bw7: '0'
     bw8: '0'
     bw9: '0'
-    center_freq0: Frec1
-    center_freq1: '0'
+    center_freq0: Frec_TxRx_A1
+    center_freq1: Frec_TxRx_B1
     center_freq10: '0'
     center_freq11: '0'
     center_freq12: '0'
@@ -350,7 +409,7 @@ blocks:
     center_freq8: '0'
     center_freq9: '0'
     clock_rate: 0e0
-    clock_source0: ''
+    clock_source0: internal
     clock_source1: ''
     clock_source2: ''
     clock_source3: ''
@@ -361,8 +420,8 @@ blocks:
     comment: ''
     dev_addr: '""'
     dev_args: ''
-    gain0: Gain1
-    gain1: '0'
+    gain0: Gain_TxRx_A1
+    gain1: Gain_TxRx_B1
     gain10: '0'
     gain11: '0'
     gain12: '0'
@@ -492,7 +551,7 @@ blocks:
     lo_source9: internal
     maxoutbuf: '0'
     minoutbuf: '0'
-    nchan: '1'
+    nchan: '2'
     num_mboards: '1'
     otw: ''
     samp_rate: samp_rate
@@ -522,9 +581,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [800, 164.0]
+    coordinate: [1016, 260.0]
     rotation: 0
-    state: enabled
+    state: true
 - name: uhd_usrp_source_0
   id: uhd_usrp_source
   parameters:
@@ -594,8 +653,8 @@ blocks:
     bw7: '0'
     bw8: '0'
     bw9: '0'
-    center_freq0: Frec
-    center_freq1: '0'
+    center_freq0: Frec_Tomada
+    center_freq1: ''
     center_freq10: '0'
     center_freq11: '0'
     center_freq12: '0'
@@ -627,7 +686,7 @@ blocks:
     center_freq8: '0'
     center_freq9: '0'
     clock_rate: 0e0
-    clock_source0: ''
+    clock_source0: external
     clock_source1: ''
     clock_source2: ''
     clock_source3: ''
@@ -958,15 +1017,16 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [64, 188.0]
+    coordinate: [72, 204.0]
     rotation: 0
     state: true
 
 connections:
+- [analog_const_source_x_0, '0', uhd_usrp_sink_1_0, '1']
 - [dc_blocker_xx_0, '0', freq_xlating_fir_filter_xxx_0, '0']
-- [freq_xlating_fir_filter_xxx_0, '0', qtgui_freq_sink_x_0, '0']
-- [freq_xlating_fir_filter_xxx_0, '0', uhd_usrp_sink_0, '0']
+- [freq_xlating_fir_filter_xxx_0, '0', uhd_usrp_sink_1_0, '0']
 - [uhd_usrp_source_0, '0', dc_blocker_xx_0, '0']
+- [uhd_usrp_source_0, '0', qtgui_freq_sink_x_0, '0']
 
 metadata:
   file_format: 1

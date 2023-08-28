@@ -25,6 +25,7 @@ from PyQt5 import Qt
 from gnuradio import qtgui
 from gnuradio.filter import firdes
 import sip
+from gnuradio import analog
 from gnuradio import filter
 from gnuradio import gr
 from gnuradio.fft import window
@@ -79,26 +80,34 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
         # Variables
         ##################################################
         self.samp_rate = samp_rate = 2.4e6
-        self.Gain1 = Gain1 = 30
+        self.Gain_TxRx_B1 = Gain_TxRx_B1 = 30
+        self.Gain_TxRx_A1 = Gain_TxRx_A1 = 30
         self.Gain = Gain = 30
-        self.Frec1 = Frec1 = 102.3e6
-        self.Frec = Frec = 102.3e6
+        self.Frec_TxRx_B1 = Frec_TxRx_B1 = 100e6
+        self.Frec_TxRx_A1 = Frec_TxRx_A1 = 400e6
+        self.Frec_Tomada = Frec_Tomada = 107.15e6
 
         ##################################################
         # Blocks
         ##################################################
-        self._Gain1_range = Range(0, 80, 1, 30, 200)
-        self._Gain1_win = RangeWidget(self._Gain1_range, self.set_Gain1, "Ganancia RF Tx", "counter_slider", float, QtCore.Qt.Horizontal)
-        self.top_layout.addWidget(self._Gain1_win)
+        self._Gain_TxRx_B1_range = Range(0, 80, 1, 30, 200)
+        self._Gain_TxRx_B1_win = RangeWidget(self._Gain_TxRx_B1_range, self.set_Gain_TxRx_B1, "Ganancia RF TxRx_B1", "counter_slider", float, QtCore.Qt.Horizontal)
+        self.top_layout.addWidget(self._Gain_TxRx_B1_win)
+        self._Gain_TxRx_A1_range = Range(0, 80, 1, 30, 200)
+        self._Gain_TxRx_A1_win = RangeWidget(self._Gain_TxRx_A1_range, self.set_Gain_TxRx_A1, "Ganancia RF TxRx_A1", "counter_slider", float, QtCore.Qt.Horizontal)
+        self.top_layout.addWidget(self._Gain_TxRx_A1_win)
         self._Gain_range = Range(0, 80, 1, 30, 200)
-        self._Gain_win = RangeWidget(self._Gain_range, self.set_Gain, "Ganancia RF Rx", "counter_slider", float, QtCore.Qt.Horizontal)
+        self._Gain_win = RangeWidget(self._Gain_range, self.set_Gain, "Ganancia RF Rx_A1", "counter_slider", float, QtCore.Qt.Horizontal)
         self.top_layout.addWidget(self._Gain_win)
-        self._Frec1_range = Range(80e6, 480e6, 0.1e6, 102.3e6, 200)
-        self._Frec1_win = RangeWidget(self._Frec1_range, self.set_Frec1, "Frecuencia variable entre 80MHz y 480MHz - TX", "counter_slider", float, QtCore.Qt.Horizontal)
-        self.top_layout.addWidget(self._Frec1_win)
-        self._Frec_range = Range(80e6, 480e6, 0.1e6, 102.3e6, 200)
-        self._Frec_win = RangeWidget(self._Frec_range, self.set_Frec, "Frecuencia variable entre 80MHz y 480MHz - Rx", "counter_slider", float, QtCore.Qt.Horizontal)
-        self.top_layout.addWidget(self._Frec_win)
+        self._Frec_TxRx_B1_range = Range(70e6, 500e6, 0.1e6, 100e6, 200)
+        self._Frec_TxRx_B1_win = RangeWidget(self._Frec_TxRx_B1_range, self.set_Frec_TxRx_B1, "Frecuencia variable entre 1MHz y 250MHz - TxRx_B1", "counter_slider", float, QtCore.Qt.Horizontal)
+        self.top_layout.addWidget(self._Frec_TxRx_B1_win)
+        self._Frec_TxRx_A1_range = Range(80e6, 480e6, 0.1e6, 400e6, 200)
+        self._Frec_TxRx_A1_win = RangeWidget(self._Frec_TxRx_A1_range, self.set_Frec_TxRx_A1, "Frecuencia variable entre 80MHz y 480MHz - TXRX_A1", "counter_slider", float, QtCore.Qt.Horizontal)
+        self.top_layout.addWidget(self._Frec_TxRx_A1_win)
+        self._Frec_Tomada_range = Range(80e6, 480e6, 0.1e6, 107.15e6, 200)
+        self._Frec_Tomada_win = RangeWidget(self._Frec_Tomada_range, self.set_Frec_Tomada, "Frecuencia variable entre 80MHz y 480MHz - Rx_A1", "counter_slider", float, QtCore.Qt.Horizontal)
+        self.top_layout.addWidget(self._Frec_Tomada_win)
         self.uhd_usrp_source_0 = uhd.usrp_source(
             ",".join(("", '')),
             uhd.stream_args(
@@ -107,31 +116,37 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
                 channels=list(range(0,1)),
             ),
         )
+        self.uhd_usrp_source_0.set_clock_source('external', 0)
         self.uhd_usrp_source_0.set_samp_rate(samp_rate)
         self.uhd_usrp_source_0.set_time_unknown_pps(uhd.time_spec(0))
 
-        self.uhd_usrp_source_0.set_center_freq(Frec, 0)
+        self.uhd_usrp_source_0.set_center_freq(Frec_Tomada, 0)
         self.uhd_usrp_source_0.set_antenna("RX2", 0)
         self.uhd_usrp_source_0.set_gain(Gain, 0)
-        self.uhd_usrp_sink_0 = uhd.usrp_sink(
+        self.uhd_usrp_sink_1_0 = uhd.usrp_sink(
             ",".join(("", '')),
             uhd.stream_args(
                 cpu_format="fc32",
                 args='',
-                channels=list(range(0,1)),
+                channels=list(range(0,2)),
             ),
             "",
         )
-        self.uhd_usrp_sink_0.set_samp_rate(samp_rate)
-        self.uhd_usrp_sink_0.set_time_unknown_pps(uhd.time_spec(0))
+        self.uhd_usrp_sink_1_0.set_clock_source('internal', 0)
+        self.uhd_usrp_sink_1_0.set_samp_rate(samp_rate)
+        self.uhd_usrp_sink_1_0.set_time_unknown_pps(uhd.time_spec(0))
 
-        self.uhd_usrp_sink_0.set_center_freq(Frec1, 0)
-        self.uhd_usrp_sink_0.set_antenna("TX/RX", 0)
-        self.uhd_usrp_sink_0.set_gain(Gain1, 0)
+        self.uhd_usrp_sink_1_0.set_center_freq(Frec_TxRx_A1, 0)
+        self.uhd_usrp_sink_1_0.set_antenna("TX/RX", 0)
+        self.uhd_usrp_sink_1_0.set_gain(Gain_TxRx_A1, 0)
+
+        self.uhd_usrp_sink_1_0.set_center_freq(Frec_TxRx_B1, 1)
+        self.uhd_usrp_sink_1_0.set_antenna("TX/RX", 1)
+        self.uhd_usrp_sink_1_0.set_gain(Gain_TxRx_B1, 1)
         self.qtgui_freq_sink_x_0 = qtgui.freq_sink_c(
             1024, #size
             window.WIN_BLACKMAN_hARRIS, #wintype
-            Frec, #fc
+            Frec_Tomada, #fc
             samp_rate, #bw
             "", #name
             1,
@@ -172,15 +187,17 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
         self.top_layout.addWidget(self._qtgui_freq_sink_x_0_win)
         self.freq_xlating_fir_filter_xxx_0 = filter.freq_xlating_fir_filter_ccc(1, firdes.low_pass(1,samp_rate,140e3,10e3), -250e3, samp_rate)
         self.dc_blocker_xx_0 = filter.dc_blocker_cc(32, True)
+        self.analog_const_source_x_0 = analog.sig_source_c(0, analog.GR_CONST_WAVE, 0, 0, 1)
 
 
         ##################################################
         # Connections
         ##################################################
+        self.connect((self.analog_const_source_x_0, 0), (self.uhd_usrp_sink_1_0, 1))
         self.connect((self.dc_blocker_xx_0, 0), (self.freq_xlating_fir_filter_xxx_0, 0))
-        self.connect((self.freq_xlating_fir_filter_xxx_0, 0), (self.qtgui_freq_sink_x_0, 0))
-        self.connect((self.freq_xlating_fir_filter_xxx_0, 0), (self.uhd_usrp_sink_0, 0))
+        self.connect((self.freq_xlating_fir_filter_xxx_0, 0), (self.uhd_usrp_sink_1_0, 0))
         self.connect((self.uhd_usrp_source_0, 0), (self.dc_blocker_xx_0, 0))
+        self.connect((self.uhd_usrp_source_0, 0), (self.qtgui_freq_sink_x_0, 0))
 
 
     def closeEvent(self, event):
@@ -197,16 +214,23 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
         self.freq_xlating_fir_filter_xxx_0.set_taps(firdes.low_pass(1,self.samp_rate,140e3,10e3))
-        self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec, self.samp_rate)
-        self.uhd_usrp_sink_0.set_samp_rate(self.samp_rate)
+        self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec_Tomada, self.samp_rate)
+        self.uhd_usrp_sink_1_0.set_samp_rate(self.samp_rate)
         self.uhd_usrp_source_0.set_samp_rate(self.samp_rate)
 
-    def get_Gain1(self):
-        return self.Gain1
+    def get_Gain_TxRx_B1(self):
+        return self.Gain_TxRx_B1
 
-    def set_Gain1(self, Gain1):
-        self.Gain1 = Gain1
-        self.uhd_usrp_sink_0.set_gain(self.Gain1, 0)
+    def set_Gain_TxRx_B1(self, Gain_TxRx_B1):
+        self.Gain_TxRx_B1 = Gain_TxRx_B1
+        self.uhd_usrp_sink_1_0.set_gain(self.Gain_TxRx_B1, 1)
+
+    def get_Gain_TxRx_A1(self):
+        return self.Gain_TxRx_A1
+
+    def set_Gain_TxRx_A1(self, Gain_TxRx_A1):
+        self.Gain_TxRx_A1 = Gain_TxRx_A1
+        self.uhd_usrp_sink_1_0.set_gain(self.Gain_TxRx_A1, 0)
 
     def get_Gain(self):
         return self.Gain
@@ -215,20 +239,27 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
         self.Gain = Gain
         self.uhd_usrp_source_0.set_gain(self.Gain, 0)
 
-    def get_Frec1(self):
-        return self.Frec1
+    def get_Frec_TxRx_B1(self):
+        return self.Frec_TxRx_B1
 
-    def set_Frec1(self, Frec1):
-        self.Frec1 = Frec1
-        self.uhd_usrp_sink_0.set_center_freq(self.Frec1, 0)
+    def set_Frec_TxRx_B1(self, Frec_TxRx_B1):
+        self.Frec_TxRx_B1 = Frec_TxRx_B1
+        self.uhd_usrp_sink_1_0.set_center_freq(self.Frec_TxRx_B1, 1)
 
-    def get_Frec(self):
-        return self.Frec
+    def get_Frec_TxRx_A1(self):
+        return self.Frec_TxRx_A1
 
-    def set_Frec(self, Frec):
-        self.Frec = Frec
-        self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec, self.samp_rate)
-        self.uhd_usrp_source_0.set_center_freq(self.Frec, 0)
+    def set_Frec_TxRx_A1(self, Frec_TxRx_A1):
+        self.Frec_TxRx_A1 = Frec_TxRx_A1
+        self.uhd_usrp_sink_1_0.set_center_freq(self.Frec_TxRx_A1, 0)
+
+    def get_Frec_Tomada(self):
+        return self.Frec_Tomada
+
+    def set_Frec_Tomada(self, Frec_Tomada):
+        self.Frec_Tomada = Frec_Tomada
+        self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec_Tomada, self.samp_rate)
+        self.uhd_usrp_source_0.set_center_freq(self.Frec_Tomada, 0)
 
 
 
