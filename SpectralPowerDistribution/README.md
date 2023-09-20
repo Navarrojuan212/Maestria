@@ -49,9 +49,7 @@ Una vez que la simulación ha terminado, se generará un gráfico 3D que muestra
 Las contribuciones son bienvenidas. Por favor, crea un `'Issue'` o `'Pull Request'` si deseas contribuir al proyecto.
 
 ## Contacto
-Para preguntas y comentarios, por favor contáctame en:
-
-[Redes](https://linktr.ee/navarro212)
+Para preguntas y comentarios, por favor contáctame en mis [Redes](https://linktr.ee/navarro212)
 
 # Agradecimientos
 Agradezco a todos los que contribuyeron a este proyecto y a aquellos que lo utilizan para aprender y construir sobre él.
