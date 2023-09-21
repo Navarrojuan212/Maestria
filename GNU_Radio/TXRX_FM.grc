@@ -304,7 +304,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [248, 484.0]
+    coordinate: [336, 332.0]
     rotation: 0
     state: true
 - name: uhd_usrp_sink_1_0
@@ -418,7 +418,7 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '""'
+    dev_addr: '"serial=30B5874"'
     dev_args: ''
     gain0: Gain_TxRx_A1
     gain1: Gain_TxRx_B1
@@ -759,7 +759,7 @@ blocks:
     dc_offs_enb7: default
     dc_offs_enb8: default
     dc_offs_enb9: default
-    dev_addr: '""'
+    dev_addr: '"serial=30B584D"'
     dev_args: ''
     gain0: Gain
     gain1: '0'
