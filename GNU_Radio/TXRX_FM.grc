@@ -33,12 +33,33 @@ options:
     state: enabled
 
 blocks:
+- name: Frec_RF_Out
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: Frecuencia RF Out
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: 25e6
+    step: 0.1e6
+    stop: 500e6
+    value: 26e6
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [104, 556.0]
+    rotation: 0
+    state: enabled
 - name: Frec_Tomada
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frecuencia variable entre 80MHz y 480MHz - Rx_A1
+    label: Frecuencia Rx Radio
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
@@ -59,14 +80,14 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: Frecuencia variable entre 80MHz y 480MHz - TXRX_A1
+    label: Frecuencia Tx
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 400e6
+    value: 140e6
     widget: counter_slider
   states:
     bus_sink: false
@@ -74,41 +95,20 @@ blocks:
     bus_structure: null
     coordinate: [672, 20.0]
     rotation: 0
-    state: true
-- name: Frec_TxRx_B1
-  id: variable_qtgui_range
-  parameters:
-    comment: ''
-    gui_hint: ''
-    label: Frecuencia variable entre 1MHz y 250MHz - TxRx_B1
-    min_len: '200'
-    orient: QtCore.Qt.Horizontal
-    rangeType: float
-    start: 70e6
-    step: 0.1e6
-    stop: 500e6
-    value: 100e6
-    widget: counter_slider
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [656, 156.0]
-    rotation: 0
-    state: true
+    state: enabled
 - name: Gain
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Ganancia RF Rx_A1
+    label: Ganancia RF Radio
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '0'
     step: '1'
     stop: '80'
-    value: '30'
+    value: '39'
     widget: counter_slider
   states:
     bus_sink: false
@@ -117,46 +117,46 @@ blocks:
     coordinate: [512, 20.0]
     rotation: 0
     state: true
-- name: Gain_TxRx_A1
+- name: Gain_RF_Out
   id: variable_qtgui_range
   parameters:
     comment: ''
     gui_hint: ''
-    label: Ganancia RF TxRx_A1
+    label: Ganancia RF Out
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '0'
     step: '1'
     stop: '80'
-    value: '30'
+    value: '23'
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [288, 548.0]
+    rotation: 0
+    state: enabled
+- name: Gain_TxRx_A1
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: Ganancia Tx
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: '0'
+    step: '1'
+    stop: '80'
+    value: '40'
     widget: counter_slider
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
     coordinate: [840, 20.0]
-    rotation: 0
-    state: true
-- name: Gain_TxRx_B1
-  id: variable_qtgui_range
-  parameters:
-    comment: ''
-    gui_hint: ''
-    label: Ganancia RF TxRx_B1
-    min_len: '200'
-    orient: QtCore.Qt.Horizontal
-    rangeType: float
-    start: '0'
-    step: '1'
-    stop: '80'
-    value: '30'
-    widget: counter_slider
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [840, 148.0]
     rotation: 0
     state: true
 - name: f_factor
@@ -183,7 +183,7 @@ blocks:
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 107.15e6
+    value: 165.65e6
     widget: counter_slider
   states:
     bus_sink: false
@@ -204,7 +204,7 @@ blocks:
     start: '0'
     step: '1'
     stop: '80'
-    value: '30'
+    value: '40'
     widget: counter_slider
   states:
     bus_sink: false
@@ -388,7 +388,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [688, 772.0]
+    coordinate: [672, 772.0]
     rotation: 0
     state: true
 - name: low_pass_filter_0
@@ -413,6 +413,40 @@ blocks:
     bus_source: false
     bus_structure: null
     coordinate: [1200, 756.0]
+    rotation: 0
+    state: true
+- name: nb
+  id: qtgui_tab_widget
+  parameters:
+    alias: ''
+    comment: ''
+    gui_hint: ''
+    label0: Spectrum RF Input
+    label1: Spectrum RF Output
+    label10: Tab 10
+    label11: Tab 11
+    label12: Tab 12
+    label13: Tab 13
+    label14: Tab 14
+    label15: Tab 15
+    label16: Tab 16
+    label17: Tab 17
+    label18: Tab 18
+    label19: Tab 19
+    label2: Tab 2
+    label3: Tab 3
+    label4: Tab 4
+    label5: Tab 5
+    label6: Tab 6
+    label7: Tab 7
+    label8: Tab 8
+    label9: Tab 9
+    num_tabs: '2'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [8, 108.0]
     rotation: 0
     state: true
 - name: osmosdr_source_0
@@ -590,7 +624,7 @@ blocks:
     dc_offset_mode7: '0'
     dc_offset_mode8: '0'
     dc_offset_mode9: '0'
-    freq0: 100e6
+    freq0: Frec_RF_Out
     freq1: 100e6
     freq10: 100e6
     freq11: 100e6
@@ -622,7 +656,7 @@ blocks:
     freq7: 100e6
     freq8: 100e6
     freq9: 100e6
-    gain0: '10'
+    gain0: Gain_RF_Out
     gain1: '10'
     gain10: '10'
     gain11: '10'
@@ -790,7 +824,7 @@ blocks:
     autoscale: 'False'
     average: '1.0'
     axislabels: 'True'
-    bw: samp_rate
+    bw: samp_rate*f_factor
     color1: '"blue"'
     color10: '"dark blue"'
     color2: '"red"'
@@ -807,7 +841,7 @@ blocks:
     fftsize: '1024'
     freqhalf: 'True'
     grid: 'False'
-    gui_hint: ''
+    gui_hint: nb@0
     label: Relative Gain
     label1: ''
     label10: ''''''
@@ -851,6 +885,87 @@ blocks:
     bus_source: false
     bus_structure: null
     coordinate: [336, 332.0]
+    rotation: 0
+    state: true
+- name: qtgui_freq_sink_x_0_0
+  id: qtgui_freq_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    autoscale: 'False'
+    average: '1.0'
+    axislabels: 'True'
+    bw: samp_rate*f_factor
+    color1: '"blue"'
+    color10: '"dark blue"'
+    color2: '"red"'
+    color3: '"green"'
+    color4: '"black"'
+    color5: '"cyan"'
+    color6: '"magenta"'
+    color7: '"yellow"'
+    color8: '"dark red"'
+    color9: '"dark green"'
+    comment: ''
+    ctrlpanel: 'True'
+    fc: Frec_RF_Out
+    fftsize: '1024'
+    freqhalf: 'True'
+    grid: 'False'
+    gui_hint: nb@1
+    label: Relative Gain
+    label1: ''
+    label10: ''''''
+    label2: ''''''
+    label3: ''''''
+    label4: ''''''
+    label5: ''''''
+    label6: ''''''
+    label7: ''''''
+    label8: ''''''
+    label9: ''''''
+    legend: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: '""'
+    nconnections: '1'
+    norm_window: 'False'
+    showports: 'False'
+    tr_chan: '0'
+    tr_level: '0.0'
+    tr_mode: qtgui.TRIG_MODE_FREE
+    tr_tag: '""'
+    type: complex
+    units: dB
+    update_time: '0.10'
+    width1: '1'
+    width10: '1'
+    width2: '1'
+    width3: '1'
+    width4: '1'
+    width5: '1'
+    width6: '1'
+    width7: '1'
+    width8: '1'
+    width9: '1'
+    wintype: window.WIN_BLACKMAN_hARRIS
+    ymax: '10'
+    ymin: '-140'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [488, 884.0]
     rotation: 0
     state: true
 - name: uhd_usrp_sink_1_0
@@ -923,7 +1038,7 @@ blocks:
     bw8: '0'
     bw9: '0'
     center_freq0: Frec_TxRx_A1
-    center_freq1: Frec_TxRx_B1
+    center_freq1: '0'
     center_freq10: '0'
     center_freq11: '0'
     center_freq12: '0'
@@ -967,7 +1082,7 @@ blocks:
     dev_addr: '"serial=30B584D"'
     dev_args: ''
     gain0: Gain_TxRx_A1
-    gain1: Gain_TxRx_B1
+    gain1: '0'
     gain10: '0'
     gain11: '0'
     gain12: '0'
@@ -1855,6 +1970,7 @@ connections:
 - [freq_xlating_fir_filter_xxx_0_0, '0', analog_wfm_rcv_0, '0']
 - [low_pass_filter_0, '0', blocks_multiply_const_vxx_0, '0']
 - [osmosdr_source_0, '0', dc_blocker_xx_0_0, '0']
+- [osmosdr_source_0, '0', qtgui_freq_sink_x_0_0, '0']
 - [uhd_usrp_source_0, '0', dc_blocker_xx_0, '0']
 - [uhd_usrp_source_0, '0', qtgui_freq_sink_x_0, '0']
 
