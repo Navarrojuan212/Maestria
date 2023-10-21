@@ -1,0 +1,459 @@
+ï»¿Scopus
+refine results
+values
+
+Your query :
+(TITLE-ABS-KEY
+(SDR AND
+visible AND
+light AND
+communication))
+
+
+Number of
+results : 38
+
+OPEN ACCESS       YEAR    AUTHOR NAME     SUBJECT AREA     DOCUMENT      PUBLICATION    SOURCE TITLE         KEYWORD           AFFILIATION          FUNDING SPONSOR           COUNTRY      SOURCE        LANGUAGE
+                                                           TYPE          STAGE                                                                                                             TYPE
+                                                                                        2013 20th
+                                          Computer         Conference                   International        Visible Light     VSB â€“ Technical    Ministerstvo              Czech        Conference
+All Open Access 8 2023  2 Danys, L.     6 Science       28 Paper      18 final       36 Conference On      2 Communication  29 University of      6 Å kolstvÃ­, MlÃ¡deÅ¾e   5 Republic   6 Proceeding 21 English  36
+                                                                                        Telecommunications                     Ostrava              a TÄ›lovÃ½chovy
+                                                                                        ICT 2013
+                                                                                        2017 1st South
+                                                                                        American
+Gold            5 2022  3 Jaros, R.     6 Engineering   24 Article    16 aip          2 Colloquium On      2 Light          23 The University of  3 European Regional       3 United     5 Journal    17 Chinese   2
+                                                                                        Visible Light                          Aizu                 Development Fund          States
+                                                                                        Communications
+                                                                                        Sacvlc 2017
+                                                                                        IEEE Transactions    Visible Light                          Fundamental Research
+Bronze          1 2021  3 Martinek, R.  6 Physics and    9 Conference  3                On Green           2 Communications 20 University of      3 Funds for the Central   3 China      4
+                                          Astronomy        Review                       Communications And   (VLC)             Lahore               Universities
+                                                                                        Networking
+                                                                                        IEEE Transactions                      China University     Telecommunications
+Green           5 2020  4 Khalid, A.    4 Mathematics    8 Review      1                On Wireless        2 Software Radio 19 of Mining and      3 Advancement Foundation  2 Pakistan   4
+                                                                                        Communications                         Technology
+                                                                                        Proceedings Of
+                                                                                        SPIE The                               Shenzhen Research
+                  2019 17 Li, H.        3 Materials      5                              International      2 Software-      17 Institute of Big   3 Bundesministerium fÃ¼r  1 India      3
+                                          Science                                       Society For          defined Radios    Data                 Bildung und Forschung
+                                                                                        Optical
+                                                                                        Engineering
+                                                                                        2015 4th
+                                                                                        International        Visible Light
+                  2018  2 Li, S.        3 Energy         4                              Workshop On        1 Communication  11 Universidad de     2 China Postdoctoral      1 Japan      3
+                                                                                        Optical Wireless     (VLC)             Chile                Science Foundation
+                                                                                        Communications
+                                                                                        Iwow 2015
+                                                                                        2015 IEEE Wireless
+                                          Decision                                      Communications And   Light Emitting                         China University of
+                  2017  1 Ma, S.        3 Sciences       3                              Networking         1 Diodes          7 Oulun Yliopisto    2 Mining and Technology   1 Chile      2
+                                                                                        Conference Wcnc
+                                                                                        2015
+                                                                                        2019 2nd IEEE
+                                          Biochemistry,                                 Middle East And
+                  2016  1 Pham, A.T.    3 Genetics and   2                              North Africa       1 Radio           7 Boston University  2 Deutsche                1 Finland    2
+                                          Molecular                                     Communications       Receivers                              Forschungsgemeinschaft
+                                          Biology                                       Conference
+                                                                                        Menacomm 2019
+                                                                                        2020 IEEE Congreso
+                                                                                        Bienal De
+                                                                                        Argentina Argencon                     COMSATS Institute    Division of Computer
+                  2015  3 Pham, T.V.    3 Chemistry      2                              2020 2020 IEEE     1 Bit Error Rate  6 of Information     2 and Network Systems     1 Germany    2
+                                                                                        Biennial Congress                      Technology Lahore
+                                                                                        Of Argentina
+                                                                                        Argencon 2020
+                                                                                        2020 International
+                                          Agricultural                                  Conference On        Computer                               Fondo Nacional de
+                  2013  2 Asif, H.M.    2 and            1                              Computing          1 Programming     6 DMI Engineering    1 Desarrollo CientÃ­fico  1 Bulgaria   1
+                                          Biological                                    Networking And       Languages         College              y TecnolÃ³gico
+                                          Sciences                                      Communications
+                                                                                        Icnc 2020
+                                                                                        2022 IEEE
+                                                                                        International
+                                                                                        Conference On
+                                                                                        Automation 25th
+                                                                                        Congress Of The
+                                                                                        Chilean
+                          Baros, J.     2 Chemical       1                              Association Of     1 Radio           6 HELLA GmbH and Co. 1 Guilin University of    1 Canada     1
+                                          Engineering                                   Automatic Control                      KGaA                 Electronic Technology
+                                                                                        For The
+                                                                                        Development Of
+                                                                                        Sustainable
+                                                                                        Agricultural
+                                                                                        Systems Ica Acca
+                                                                                        2022
+                                          Earth and                                     ACM International    Analog            Science Systems      Medical University
+                          Elgala, H.    2 Planetary      1                              Conference         1 Circuits        4 and Applications,  1 Sofia                   1 Hungary    1
+                                          Sciences                                      Proceeding Series                      Inc. SSAI
+                                          Social                                        Computers            Energy            Ministry of          National Instruments
+                          Kolarik, J.   2 Sciences       1                              Materials And      1 Efficiency      4 Education China    1 Corporation             1 Italy      1
+                                                                                        Continua
+                                                                                        Dianzi Yu Xinxi
+                          Little,                                                       Xuebao Journal Of    National          Technical            National Natural
+                          T.D.C.        2                                               Electronics And    1 Instruments     4 University of      1 Science Foundation of   1 Peru       1
+                                                                                        Information                            Sofia                China
+                                                                                        Technology
+                                                                                        Electronics          Semidefinite      CNR - Istituto       Natural Science
+                          Slanina, Z.   2                                               Switzerland        1 Relaxation      4 Nazionale di       1 Foundation of Jiangsu   1 Portugal   1
+                                                                                                                               Ottica               Province
+                                                                                                             Software          NASA Goddard Space   Science and               Russian
+                          Zhang, F.     2                                               IEEE Access        1 Defined Radio   4 Flight Center      1 Engineering Research    1 Federation 1
+                                                                                                                                                    Board
+                                                                                        IEEE International   Software          National Institute   SecretarÃ­a de
+                          Agarwal, S.   1                                               Conference On      1 Defined Radio   4 of Technology,     1 EducaciÃ³n Superior,    1 Saudi      1
+                                                                                        Communications       (SDR)             Warangal             Ciencia, TecnologÃ­a e    Arabia
+                                                                                                                                                    InnovaciÃ³n
+                                                                                                                                                    Shenzhen Fundamental
+                          Al Otaibi, S. 1                                               IEEE Transactions  1 Software        4 South Ural State   1 Research and            1 Spain      1
+                                                                                        On Communications    Testing           University           Discipline Layout
+                                                                                                                                                    project
+                                                                                        IEEE Transactions    Channel State     Nanchang
+                          Ali, A.       1                                               On Geoscience And  1 Information     3 University         1 Taif University         1 Turkey     1
+                                                                                        Remote Sensing
+                                                                                                                               Hong Kong            Vice Provost for the
+                          Altaf, Z.     1                                               IFAC Papersonline  1 Digital Radio   3 University of      1 Faculty, University of  1 Viet Nam   1
+                                                                                                                               Science and          California Berkeley
+                                                                                                                               Technology
+                                                                                        International
+                                                                                        Conference On                          Technische
+                          Amjad, M.S.   1                                               Embedded Wireless  1 MIMO Systems    3 UniversitÃ¤t       1 Xidian University       1 Undefined  4
+                                                                                        Systems And                            Darmstadt
+                                                                                        Networks
+                                                                                        International
+                          Anguelov, A.  1                                               Journal Of         1 Open Source     3 Universidad Diego  1 Undefined              22
+                                                                                        Integrated           Software          Portales
+                                                                                        Engineering
+                                                                                        International        Orthogonal        National
+                                                                                        Journal Of           Frequency         Aeronautics and
+                          Ayyash, M.    1                                               Microwave And      1 Division        3 Space              1
+                                                                                        Wireless             Multiplexing      Administration
+                                                                                        Technologies
+                                                                                        International
+                                                                                        Symposium On                           Centre TecnolÃ³gic
+                          Azurdia-Meza, 1                                               Advanced Networks  1 Physical Layer  3 de                 1
+                          C.A.                                                          And                  Security          Telecomunicacions
+                                                                                        Telecommunication                      de Catalunya
+                                                                                        Systems Ants
+                          Banda-Sayco,                                                  Journal Of Optical   Quadrature        Instituto de
+                          O.R.          1                                               Communications     1 Amplitude       3 TelecomunicaÃ§Ãµes 1
+                                                                                                             Modulation
+                                                                                        Proceedings 11th
+                                                                                        IEEE International
+                          Baranda, J.   1                                               Conference On      1 Real Time       3 UniversitÃ¤t       1
+                                                                                        Mobile Ad Hoc And    Systems           Paderborn
+                                                                                        Sensor Systems
+                                                                                        Mass 2014
+                                                                                        Proceedings IEEE
+                                                                                        International        Software-         Chicago State
+                          Berceli, T.   1                                               Symposium On       1 defined Radio   3 University         1
+                                                                                        Circuits And         (SDR)
+                                                                                        Systems
+                                                                                        Proceedings Of The
+                                                                                        2017 2nd Workshop                      Nanjing University
+                          Bhaskar, V.   1                                               On Recent Trends   1 Total Transmit  3 of Aeronautics and 1
+                                                                                        In                   Power             Astronautics
+                                                                                        Telecommunications
+                                                                                        Research Rttr 2017
+                                                                                        Proceedings Of The
+                                                                                        Annual               Universal
+                                                                                        International        Software Radio    UniversitÃ  degli
+                          Bilik, P.     1                                               Conference On      1 Peripherals     3 Studi di Firenze   1
+                                                                                        Mobile Computing     (USRP)
+                                                                                        And Networking
+                                                                                        MOBICOM
+                          Bohara, V.A.  1                                               Sensors            1 VLC             3 Beijing Jiaotong   1
+                                                                                                                               University
+                                                                                        Sensors                                New Jersey
+                          Catani, J.    1                                               Switzerland        1 5G              2 Institute of       1
+                                                                                                                               Technology
+                                                                                        Wireless Personal    5G Mobile
+                          Classen, J.   1                                               Communications     1 Communication   2 Tufts University   1
+                                                                                                             Systems
+                                                                                        Xi Tong Gong Cheng
+                                                                                        Yu Dian Zi Ji Shu    Amplitude         Universidad de
+                          Dong, W.      1                                               Systems            1 Modulation      2 Santiago de Chile  1
+                                                                                        Engineering And
+                                                                                        Electronics
+                          Dressler, F.  1                                                                    Artificial      2 Xidian University  1
+                                                                                                             Noise
+                          Duong, S.T.   1                                                                    Bandwidth       2 San Francisco      1
+                                                                                                                               State University
+                          Fan, P.       1                                                                    Beamforming     2 Dalian Maritime    1
+                                                                                                                               University
+                                                                                                             Bit Error Rate    University of
+                          FehÃ©r, G.    1                                                                    (BER)           2 Minnesota Twin     1
+                                                                                                                               Cities
+                                                                                                                               Budapest
+                          Fekete, G.    1                                                                    Cost            2 University of      1
+                                                                                                             Effectiveness     Technology and
+                                                                                                                               Economics
+                          Fredes, C.    1                                                                    Digital Signal  2 Temple University  1
+                                                                                                             Processing
+                          Gao, B.       1                                                                    Dimming         2 McMaster           1
+                                                                                                             Control           University
+                          Gavrincea,                                                                         Energy            Hanoi University
+                          C.G.          1                                                                    Harvesting      2 of Science and     1
+                                                                                                                               Technology
+                                                                                                             Energy            Jaypee Institute
+                          Guo, Y.       1                                                                    Transfer        2 of Information     1
+                                                                                                                               Technology
+                                                                                                                               LENS - European
+                          He, Y.        1                                                                    Equalizers      2 Laboratory for     1
+                                                                                                                               Non-Linear
+                                                                                                                               Spectroscopy
+                          Henarejos, P. 1                                                                    Errors          2 Ozyegin University 1
+                                                                                                                               Universidad
+                          Hollick, M.   1                                                                    High Energy     2 Nacional de San    1
+                                                                                                             Physics           Agustin de
+                                                                                                                               Arequipa
+                          Hussain, W.   1                                                                    Hybrid System   2 Taif University    1
+                                                                                                                               Beijing National
+                                                                                                                               Research Center
+                          HÃ¤kkinen, J. 1                                                                    Hybrid Systems  2 for Information    1
+                                                                                                                               Science and
+                                                                                                                               Technology
+                                                                                                                               Indraprastha
+                          Jativa, P.P.  1                                                                    IEEE 802.15.7   2 Institute of       1
+                                                                                                                               Information
+                                                                                                                               Technology, Delhi
+                                                                                                                               McMaster
+                          Javier-       1                                                                    IEEE Standards  2 University,        1
+                          Quispe, S.A.                                                                                         Faculty of
+                                                                                                                               Engineering
+                                                                                                             Information       St. Xavier's
+                          Judson, D.    1                                                                    And Power       2 Catholic College   1
+                                                                                                             Transfers         of Engineering
+                          Katz, M.      1                                                                    Intelligent     2
+                                                                                                             Systems
+                                                                                                             Intelligent
+                          Khan, N.      1                                                                    Transportation  2
+                                                                                                             Systems
+                                                                                                             Intelligent
+                          Khreishah, A. 1                                                                    Vehicle         2
+                                                                                                             Highway
+                                                                                                             Systems
+                          Kishore, V.   1                                                                    LabVIEW         2
+                          Konstantin,   1                                                                    Li-Fi           2
+                          K.
+                          Koomson, V.J. 1                                                                    Light Emitting  2
+                                                                                                             Diode (LED)
+                          Kress, C.     1                                                                    Line Of Sight   2
+                          Kruse, S.     1                                                                    Measured        2
+                                                                                                             Parameters
+                          Laura-
+                          Choquehuanca, 1                                                                    Multi-state     2
+                          G.R.
+                          Leikanger, T. 1                                                                    NOMA            2
+                          Letaief, K.B. 1                                                                    Network Layers  2
+                                                                                                             Non-orthogonal
+                          Li, B.        1                                                                    Multiple        2
+                                                                                                             Access
+                          Li, Z.        1                                                                    Optical         2
+                                                                                                             Communication
+                          Lu, S.        1                                                                    Optimal         2
+                                                                                                             Systems
+                          Lu, Y.        1                                                                    Optimization    2
+                          Mani, V.V.    1                                                                    Performance     2
+                                                                                                             Testing
+                          Maturana, N.  1                                                                    Physical Layer  2
+                                                                                                             Quadrature-
+                          Matus, V.     1                                                                    amplitude       2
+                                                                                                             Modulations
+                                                                                                             (QAM)
+                                                                                                             Recursive
+                          McIntire, J.  1                                                                    Least Square    2
+                                                                                                             (RLS)
+                          Meister, R.   1                                                                    Research And    2
+                                                                                                             Development
+                          Memedi, A.    1                                                                    Robust          2
+                                                                                                             Beamforming
+                          Merin         1                                                                    SDR             2
+                          Joshiba, J.
+                          Meucci, M.    1                                                                    Signal          2
+                                                                                                             Processing
+                          Meza, C.A.    1                                                                    Signal To       2
+                                                                                                             Noise Ratio
+                                                                                                             Simultaneous
+                                                                                                             Lightwave
+                          Mirvakili, A. 1                                                                    Information     2
+                                                                                                             And Power
+                                                                                                             Transfer
+                          Montejo-                                                                           Software
+                          Sanchez, S.   1                                                                    Defined Radios  2
+                                                                                                             (SDRs)
+                          Mumtaz, S.    1                                                                    Spectral        2
+                                                                                                             Efficiencies
+                          MÃ©szÃ¡ros,                                                                        Successive
+                          G.            1                                                                    Convex          2
+                                                                                                             Approximations
+                          Nakov, O.     1                                                                    Timing          2
+                                                                                                             Circuits
+                          Nesruminallah 1                                                                    Transceivers    2
+                          Nguyen, C.T.  1                                                                    Transmitters    2
+                          Oudrari, H.   1                                                                    Visible Light   2
+                                                                                                             Communications
+                          Pari-Pinto,   1                                                                    Wireless        2
+                          P.L.                                                                               Systems
+                          Qin, L.       1                                                                    5g              1
+                          Rahaim, M.    1                                                                    Achievable      1
+                                                                                                             Rate
+                          Rahaim, M.B.  1                                                                    Achievable      1
+                                                                                                             Secrecy Rates
+                          Rojas, J.     1                                                                    Adaptive        1
+                                                                                                             Equalization
+                          Saeed, A.     1                                                                    Adaptive        1
+                                                                                                             Equalizer
+                          Saud, M.S.    1                                                                    Adaptive        1
+                                                                                                             Equalizers
+                          Scheytt, C.   1                                                                    Adaptive        1
+                                                                                                             Optimization
+                                                                                                             Aggregated
+                                                                                                             Visible Light
+                          Schwarting,   1                                                                    Communication   1
+                          T.                                                                                 And Radio
+                                                                                                             Frequency
+                                                                                                             System
+                                                                                                             Aggregated
+                                                                                                             Visible Light
+                          Shao, S.      1                                                                    Communication   1
+                                                                                                             And Radio
+                                                                                                             Frequency(VLC-
+                                                                                                             RF) System
+                          Siddiqui,     1                                                                    Algorithm       1
+                          A.R.
+                          Simonik, P.   1                                                                    Alternative     1
+                                                                                                             Technologies
+                                                                                                             Amplitude And
+                          Singh, A.     1                                                                    Phase           1
+                                                                                                             Modulations
+                          Snasel, V.    1                                                                    Angle Of        1
+                                                                                                             Arrival
+                          Soto, I.      1                                                                    Angle Of        1
+                                                                                                             Arrival (AOA)
+                          Srivastava,   1                                                                    Application     1
+                          A.
+                          Taneja, N.    1                                                                    Application     1
+                                                                                                             Fields
+                          Tebruegge, C. 1                                                                    Approximation   1
+                                                                                                             Algorithms
+                          Trifonov, R.  1                                                                    Array           1
+                                                                                                             Processing
+                          Udvary, E.    1                                                                    Array Signal    1
+                                                                                                             Processing
+                          Ugurdag, H.F. 1                                                                    Article         1
+                          Umair, M.A.   1                                                                    Audio           1
+                          Uysal, M.     1                                                                    Audio           1
+                                                                                                             Streaming
+                          Wang, X.      1                                                                    Audio Systems   1
+                          Wang, Y.      1                                                                    Automobile      1
+                                                                                                             Manufacture
+                          Wang, Y.      1                                                                    Availability    1
+                                                                                                             Average
+                          Wu, J.        1                                                                    Positioning     1
+                                                                                                             Error
+                          Wu, N.        1                                                                    Beam Formers    1
+                          Xiong, K.     1                                                                    Beamformer      1
+                                                                                                             Design
+                          Xiong, X.     1                                                                    Binary Phase    1
+                                                                                                             Shift Keying
+                                                                                                             Binary Phase
+                          Yang, R.      1                                                                    Shift Keying    1
+                                                                                                             (BPSK)
+                          Zea-Vargas,                                                                        Bit Error Rate
+                          M.A.          1                                                                    (BER)           1
+                                                                                                             Performance
+                          Zhou, F.      1                                                                    Bit-error       1
+                                                                                                             Ratio (ber)
+                          Undefined     3                                                                    Block Codes     1
+                                                                                                             CAN Bus         1
+                                                                                                             Calibration     1
+                                                                                                             Carrier
+                                                                                                             Transmission    1
+                                                                                                             On Power Lines
+                                                                                                             Channel         1
+                                                                                                             Uncertainties
+                                                                                                             Circuit         1
+                                                                                                             Designs
+                                                                                                             Code Division
+                                                                                                             Multiple        1
+                                                                                                             Access
+                                                                                                             Code Division
+                                                                                                             Multiple        1
+                                                                                                             Access (CDMA)
+                                                                                                             Collective      1
+                                                                                                             Robotics
+                                                                                                             Color Shift     1
+                                                                                                             Keying (CSK)
+                                                                                                             Commercial Off
+                                                                                                             The Shelf       1
+                                                                                                             Devices
+                                                                                                             Commercial      1
+                                                                                                             Vehicles
+                                                                                                             Commercial-     1
+                                                                                                             off-the-shelf
+                                                                                                             Communication   1
+                                                                                                             Frequency
+                                                                                                             Communication   1
+                                                                                                             Parameters
+                                                                                                             Communication   1
+                                                                                                             Performance
+                                                                                                             Communication   1
+                                                                                                             Platforms
+                                                                                                             Communication   1
+                                                                                                             Range
+                                                                                                             Communication   1
+                                                                                                             Satellites
+                                                                                                             Communication-  1
+                                                                                                             based Systems
+                                                                                                             Communications  1
+                                                                                                             Networks
+                                                                                                             Compact         1
+                                                                                                             Devices
+                                                                                                             Compliance      1
+                                                                                                             Computational
+                                                                                                             Complexity      1
+                                                                                                             (CC)
+                                                                                                             Computational   1
+                                                                                                             Geometry
+                                                                                                             Computer        1
+                                                                                                             Programming
+                                                                                                             Computer        1
+                                                                                                             Terminals
+                                                                                                             Concave-convex  1
+                                                                                                             Procedure
+                                                                                                             Concurrency     1
+                                                                                                             Control
+                                                                                                             Confidential    1
+                                                                                                             Message
+                                                                                                             Constant        1
+                                                                                                             Current
+                                                                                                             Constrained
+                                                                                                             Quadratic       1
+                                                                                                             Programming
+                                                                                                             Control Area    1
+                                                                                                             Network Bus
+                                                                                                             Control Area
+                                                                                                             Network Bus     1
+                                                                                                             (CAN Bus)
+                                                                                                             Controlled      1
+                                                                                                             Laboratories
+                                                                                                             Convex          1
+                                                                                                             Optimization
+                                                                                                             Convex-concave  1
+                                                                                                             Procedure
+                                                                                                             Current         1
+                                                                                                             Mirrors
+                                                                                                             Current-mirror  1
+                                                                                                             Circuits
+                                                                                                             DDS             1
+                                                                                                             Data Analysis   1
+                                                                                                             Software
+                                                                                                             Data
+                                                                                                             Communication   1
+                                                                                                             Systems
+                                                                                                             Data Streams    1
+                                                                                                             Data-           1
+                                                                                                             communication
+                                                                                                             Day-night Band  1
+                                                                                                             (DNB)

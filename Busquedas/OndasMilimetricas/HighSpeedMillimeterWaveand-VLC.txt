@@ -1,0 +1,1029 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Eskandari, M
+   Huang, HL
+   Savkin, AV
+   Ni, W
+AF Eskandari, Mohsen
+   Huang, Hailong
+   Savkin, Andrey V.
+   Ni, Wei
+TI Model Predictive Control-Based 3D Navigation of a RIS-Equipped UAV for
+   LoS Wireless Communication With a Ground Intelligent Vehicle
+SO IEEE TRANSACTIONS ON INTELLIGENT VEHICLES
+LA English
+DT Article
+DE Autonomous aerial vehicles; Trajectory; Navigation; Intelligent
+   vehicles; Wireless communication; Three-dimensional displays; Millimeter
+   wave communication; Autonomous navigation; intelligent vehicles; optimal
+   trajectory; reconfigurable intelligent surfaces (RISs); unmanned aerial
+   vehicles (UAVs); wireless communication
+ID SURFACES; TRACKING; DESIGN
+AB Intelligent vehicles need high bandwidth wireless communication links for safety and commercial communication. However, the new generations of wireless communication networks (WCNs), such as quasi-optic millimeter-wave (mmWave) (5G) and visible light optic (6G) WCNs, are exposed to blockage/scattering problems in highly dense (urban) areas. In this paper, we propose a reconfigurable intelligent surface (RIS)-equipped (unmanned aerial vehicle) UAV (RISeUAV) to secure an uninterrupted line-of-sight (LoS) communication link for an intelligent vehicle. The vehicle can be a smart ambulance and needs a stable high-speed link for autonomous navigation, also for continuous monitoring/diagnosing of the health condition of a patient. A two-stage method is proposed to address the NP-hardness and nonconvexity of planning an optimal trajectory for autonomous navigation of the RISeUAV limited to UAV motion and LoS constraints. In the first stage, the optimal tube path is determined by considering the energy consumption, LoS link, and UAV speed/acceleration constraints. In the second stage, an accurate RISeUAV trajectory is obtained through the secured tube path by considering the communication performance, passive beamforming, and nonholonomic constraint of the RISeUAV. Dynamic programming and successive convex approximation methods are used in the first and second stages, respectively. Simulation results show the accuracy/effectiveness of the method.
+C1 [Eskandari, Mohsen] Univ New South Wales, Sch Elect Engn & Telecommun, Sydney, NSW 2052, Australia.
+   [Huang, Hailong; Savkin, Andrey V.] Hong Kong Polytech Univ, Dept Aeronaut & Aviat Engn, Hong Kong, Peoples R China.
+   [Ni, Wei] CSIRO, Data61, Sydney, NSW 2015, Australia.
+C3 University of New South Wales Sydney; Hong Kong Polytechnic University;
+   Commonwealth Scientific & Industrial Research Organisation (CSIRO)
+RP Eskandari, M (corresponding author), Univ New South Wales, Sch Elect Engn & Telecommun, Sydney, NSW 2052, Australia.
+EM m.eskandari@unsw.edu.au; hailong.huang@polyu.edu.hk;
+   a.savkin@unsw.edu.au; wei.ni@data61.csiro.au
+RI Eskandari, Mohsen/I-1161-2019; Ni, Wei/B-7489-2011
+OI Eskandari, Mohsen/0000-0003-1185-9585; Savkin,
+   Andrey/0000-0001-9390-6634
+FU Australian Government [AUSMURIB00000]
+FX This work was supported by the Australian Government, under Grant
+   AUSMURIB00000
+CR Alfattani S, 2021, IEEE COMMUN MAG, V59, P96, DOI 10.1109/MCOM.001.2000350
+   Bansal A, 2023, IEEE T INTELL VEHICL, V8, P936, DOI 10.1109/TIV.2022.3168159
+   Barmpounakis EN, 2018, IEEE T INTELL VEHICL, V3, P102, DOI 10.1109/TIV.2017.2788195
+   Basar E, 2019, IEEE ACCESS, V7, P116753, DOI 10.1109/ACCESS.2019.2935192
+   Beard RW, 2002, IEEE T ROBOTIC AUTOM, V18, P911, DOI 10.1109/TRA.2002.805653
+   Bellman R., 1957, DYNAMIC PROGRAMMING
+   Bharati SP, 2018, IEEE T INTELL VEHICL, V3, P185, DOI 10.1109/TIV.2018.2804166
+   Bogale TE, 2017, MMWAVE MASSIVE MIMO: A PARADIGM FOR 5G, P195, DOI 10.1016/B978-0-12-804418-6.00009-1
+   Chen YJ, 2020, IEEE T VEH TECHNOL, V69, P13702, DOI 10.1109/TVT.2020.3023733
+   Choi DH, 2014, IEEE T AERO ELEC SYS, V50, P2319, DOI 10.1109/TAES.2013.130074
+   Dai JY, 2019, ADV MATER TECHNOL-US, V4, DOI 10.1002/admt.201900044
+   ElMossallamy MA, 2020, IEEE T COGN COMMUN, V6, P990, DOI 10.1109/TCCN.2020.2992604
+   Hosseini M, 2017, IEEE T MULTIMEDIA, V19, P2307, DOI 10.1109/TMM.2017.2733298
+   Hu SK, 2021, IEEE T COMMUN, V69, P7032, DOI 10.1109/TCOMM.2021.3097140
+   Huang CW, 2019, IEEE T WIREL COMMUN, V18, P4157, DOI 10.1109/TWC.2019.2922609
+   Khalife J, 2023, IEEE T INTELL VEHICL, V8, P732, DOI 10.1109/TIV.2022.3187957
+   Li SX, 2021, IEEE T WIREL COMMUN, V20, P6402, DOI 10.1109/TWC.2021.3073746
+   Li SX, 2020, IEEE WIREL COMMUN LE, V9, P716, DOI 10.1109/LWC.2020.2966705
+   Liu RW, 2022, IEEE T IND INFORM, V18, P7977, DOI [10.1109/TII.2022.3165886, 10.1109/TIV.2022.3213703]
+   Liu X, 2021, IEEE J SEL AREA COMM, V39, P2042, DOI 10.1109/JSAC.2020.3041401
+   Lyu JB, 2017, IEEE COMMUN LETT, V21, P604, DOI 10.1109/LCOMM.2016.2633248
+   Meng W, 2017, IEEE T CONTR SYST T, V25, P1480, DOI 10.1109/TCST.2016.2601287
+   Oh H, 2015, IEEE T AERO ELEC SYS, V51, P1501, DOI 10.1109/TAES.2015.140044
+   Pan YJ, 2021, IEEE WIREL COMMUN LE, V10, P1256, DOI 10.1109/LWC.2021.3063365
+   Qian J, 2022, IEEE GEOSCI REMOTE S, V19, DOI 10.1109/LGRS.2021.3099166
+   Quan Q, 2022, IEEE T INTELL VEHICL, V7, P342, DOI 10.1109/TIV.2021.3123110
+   Rathinam S, 2007, IEEE T AUTOM SCI ENG, V4, P98, DOI 10.1109/TASE.2006.872110
+   Savkin AV, 2020, IEEE WIREL COMMUN LE, V9, P1211, DOI 10.1109/LWC.2020.2986291
+   Souli N, 2022, IEEE T INTELL VEHICL, V7, P873, DOI 10.1109/TIV.2021.3124727
+   Tang WK, 2021, IEEE T WIREL COMMUN, V20, P421, DOI 10.1109/TWC.2020.3024887
+   Wu QQ, 2019, IEEE T WIREL COMMUN, V18, P5394, DOI 10.1109/TWC.2019.2936025
+   Wu QQ, 2018, IEEE T WIREL COMMUN, V17, P2109, DOI 10.1109/TWC.2017.2789293
+   Yao WR, 2023, IEEE T INTELL VEHICL, V8, P1068, DOI 10.1109/TIV.2022.3192525
+   Zeng Y, 2019, IEEE T WIREL COMMUN, V18, P2329, DOI 10.1109/TWC.2019.2902559
+   Zhai YK, 2021, IEEE NETWORK, V35, P190, DOI 10.1109/MNET.011.2000014
+   Zhang QQ, 2019, IEEE GLOB COMM CONF, DOI 10.1109/globecom38437.2019.9013626
+   Zhou F, 2023, IEEE T INTELL VEHICL, V8, P1676, DOI 10.1109/TIV.2022.3225466
+NR 37
+TC 0
+Z9 0
+U1 6
+U2 6
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2379-8858
+EI 2379-8904
+J9 IEEE T INTELL VEHICL
+JI IEEE T. Intell. Veh.
+PD MAR
+PY 2023
+VL 8
+IS 3
+BP 2371
+EP 2384
+DI 10.1109/TIV.2022.3232890
+PG 14
+WC Computer Science, Artificial Intelligence; Engineering, Electrical &
+   Electronic; Transportation Science & Technology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Transportation
+GA F3JT9
+UT WOS:000981348100032
+OA Green Accepted
+DA 2023-10-21
+ER
+
+PT J
+AU Aghaei, F
+   Eldeeb, HB
+   Bariah, L
+   Muhaidat, S
+   Uysal, M
+AF Aghaei, Fahimeh
+   Eldeeb, Hossien B.
+   Bariah, Lina
+   Muhaidat, Sami
+   Uysal, Murat
+TI Comparative Characterization of Indoor VLC and MMW Communications via
+   Ray Tracing Simulations
+SO IEEE ACCESS
+LA English
+DT Article
+DE Optical reflection; Wireless communication; Solid modeling; Ray tracing;
+   Optical transmitters; Optical receivers; Visible light communication;
+   Radio frequency; Wireless fidelity; Hybrid power systems; Radio
+   frequency (RF); visible light communication (VLC); hybrid RF/VLC;
+   wireless fidelity (Wi-Fi); hybrid networks; hybrid RF/VLC environments
+ID MILLIMETER-WAVE; CHANNEL MODELS
+AB The demand for ultra-high-speed indoor wireless connectivity is ever-increasing, which poses unique challenges for the next generation wireless communication system design. This has prompted the exploration of higher frequency bands including millimeter wave (MMW) and visible light bands in addition to the conventional sub-6 GHz band. This paper provides a comprehensive comparison of the propagation channels of these frequency bands under the same indoor environment and scenarios. We adopt ray tracing techniques for site-specific channel modeling, which enables the consideration of the three-dimensional models of the indoor environment and objects inside. It allows us to take into account different frequencies, i.e., 2.4 GHz, 6 GHz, 28 GHz, 60 GHz, 100 GHz, and visible light band as well as different transmitter types, i.e., omnidirectional/directional antennas for radio frequency systems and indoor luminaries for visible light communications (VLC). For different frequencies under consideration, we obtain channel impulse responses (CIRs) and present the channel path losses for various user trajectories in indoor environments. Furthermore, we propose closed-form expressions for the cumulative distribution functions (CDFs) of received power levels for all frequency bands under consideration. Our results demonstrate that VLC channels exhibit lower path loss than that in MMW bands but higher than that of 2.4 GHz band. In addition, it is observed that VLC systems exhibit more sensitivity to shadowing and blockage effects. Our findings further indicate that the characteristics of the propagation channel are greatly influenced by the antenna type. For instance, using omnidirectional and rectangular patch antennas results in lower path loss compared to horn antennas, and this difference becomes more significant as the transmission distance decreases.
+C1 [Aghaei, Fahimeh; Uysal, Murat] Ozyegin Univ, Dept Elect & Elect Engn, TR-34794 Istanbul, Turkiye.
+   [Eldeeb, Hossien B.; Bariah, Lina; Muhaidat, Sami] Khalifa Univ, Ctr Cyber Phys Syst, Dept Elect Engn & Comp Sci, Abu Dhabi, U Arab Emirates.
+   [Bariah, Lina] Technol Innovat Inst, Abu Dhabi, U Arab Emirates.
+   [Uysal, Murat] NYU Abu Dhabi NYUAD, Engn Div, Abu Dhabi, U Arab Emirates.
+C3 Ozyegin University; Khalifa University of Science & Technology;
+   Technology Innovation Institute
+RP Aghaei, F (corresponding author), Ozyegin Univ, Dept Elect & Elect Engn, TR-34794 Istanbul, Turkiye.; Eldeeb, HB (corresponding author), Khalifa Univ, Ctr Cyber Phys Syst, Dept Elect Engn & Comp Sci, Abu Dhabi, U Arab Emirates.
+EM fahimeh.aghaei@ozu.edu.tr; hossien.eldeeb@ku.ac.ae
+RI Eldeeb, Hossien/ABD-7356-2022; Aghaei, Fahimeh/ABF-4758-2022; aghaei,
+   fahimeh/AAI-4598-2021
+OI Eldeeb, Hossien/0000-0001-7560-1124; aghaei,
+   fahimeh/0000-0002-2066-3675; Muhaidat, Sami/0000-0003-4649-9399; Uysal,
+   Murat/0000-0001-5945-0813
+CR Abhignya G., 2015, INT J ENG APPL SCI, V2, P2394
+   Abuella H, 2021, IEEE ACCESS, V9, P160402, DOI 10.1109/ACCESS.2021.3129154
+   Adnan-Qidan A, 2020, IEEE ACCESS, V8, P72512, DOI 10.1109/ACCESS.2020.2987545
+   Althunibat S, 2020, IEEE T VEH TECHNOL, V69, P6325, DOI 10.1109/TVT.2020.2986671
+   Batalha ID, 2019, IEEE ACCESS, V7, P55005, DOI 10.1109/ACCESS.2019.2911866
+   Bogale TE, 2016, IEEE VEH TECHNOL MAG, V11, P64, DOI 10.1109/MVT.2015.2496240
+   Chen YR, 2020, IEEE ACCESS, V8, P13875, DOI 10.1109/ACCESS.2019.2961939
+   Donlan BM, 2006, IEEE T WIREL COMMUN, V5, P2863, DOI 10.1109/TWC.2006.04482
+   Du PF, 2019, IEEE ACCESS, V7, P93986, DOI 10.1109/ACCESS.2019.2928014
+   Eldeeb H. B., 2020, P 12 INT S COMM SYST, P1
+   Eldeeb HB, 2021, IEEE PHOTONIC TECH L, V33, P916, DOI 10.1109/LPT.2021.3072254
+   Feng LF, 2018, IEEE WIREL COMMUN, V25, P70, DOI 10.1109/MWC.2018.1600341
+   Geok TK, 2022, ALEX ENG J, V61, P11041, DOI 10.1016/j.aej.2022.04.033
+   Geok TK, 2018, PLOS ONE, V13, DOI 10.1371/journal.pone.0201905
+   Jovicic A, 2013, IEEE COMMUN MAG, V51, P26, DOI 10.1109/MCOM.2013.6685754
+   Kaddouri S, 2018, 2018 IEEE 29TH ANNUAL INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR AND MOBILE RADIO COMMUNICATIONS (PIMRC)
+   Lee K, 2011, IEEE COMMUN LETT, V15, P217, DOI 10.1109/LCOMM.2011.010411.101945
+   LING H, 1989, IEEE T ANTENN PROPAG, V37, P194, DOI 10.1109/8.18706
+   Miramirkhani F, 2015, IEEE PHOTONICS J, V7, P1
+   Nan X, 2019, IEEE COMMUN LETT, V23, P1003, DOI 10.1109/LCOMM.2019.2908155
+   Chaleshtori ZN, 2020, SENSORS-BASEL, V20, DOI 10.3390/s20236869
+   Nlom SM, 2018, IEEE ACCESS, V6, P25230, DOI 10.1109/ACCESS.2018.2831625
+   pasternack, WR 15 WAVEGUIDE STAN
+   Raj R, 2020, IEEE ACCESS, V8, P190620, DOI 10.1109/ACCESS.2020.3031164
+   Remcom, WIRELESS INSITE
+   Prieto MR, 2022, PROC EUR CONF ANTENN
+   Sanchez M. G., 2020, MILLIMETER WAVE MMWA
+   Series P., 2015, EFFECTS BUILDING MAT, P2040
+   Sheikholeslami SM, 2022, IEEE ACCESS, V10, P126479, DOI 10.1109/ACCESS.2022.3216710
+   Sreedevi AG, 2019, WIRELESS PERS COMMUN, V108, P1733, DOI 10.1007/s11277-019-06493-w
+   Stefan I, 2013, IEEE ICC, P3825, DOI 10.1109/ICC.2013.6655152
+   Uysal M., 2018, 111815820200BB IEEE
+   Uysal M, 2019, 2019 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXHIBITION (OFC)
+   Wang FB, 2022, IEEE COMMUN MAG, V60, P55, DOI 10.1109/MCOM.001.2100748
+   Xing YC, 2021, IEEE COMMUN LETT, V25, P3151, DOI 10.1109/LCOMM.2021.3088264
+   Yahia S, 2021, J NETW COMPUT APPL, V194, DOI 10.1016/j.jnca.2021.103206
+   Zemax, OPTICSTUDIO
+   Zhang J., 2023, IEEE COMMUN MAG
+   Zhang N, 2015, IEEE ACCESS, V3, P2950, DOI 10.1109/ACCESS.2015.2510363
+NR 39
+TC 0
+Z9 0
+U1 8
+U2 8
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2023
+VL 11
+BP 90345
+EP 90357
+DI 10.1109/ACCESS.2023.3307186
+PG 13
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA Q6RB4
+UT WOS:001058765600001
+OA gold
+DA 2023-10-21
+ER
+
+PT J
+AU Abuella, H
+   Elamassie, M
+   Uysal, M
+   Xu, ZY
+   Serpedin, E
+   Qaraqe, KA
+   Ekin, S
+AF Abuella, Hisham
+   Elamassie, Mohammed
+   Uysal, Murat
+   Xu, Zhengyuan
+   Serpedin, Erchin
+   Qaraqe, Khalid A.
+   Ekin, Sabit
+TI Hybrid RF/VLC Systems: A Comprehensive Survey on Network Topologies,
+   Performance Analyses, Applications, and Future Directions
+SO IEEE ACCESS
+LA English
+DT Article
+DE Visible light communication; Radio frequency; Wireless communication;
+   Cameras; 5G mobile communication; IEEE 802; 15 Standard; High-speed
+   optical techniques; Radio frequency (RF); visible light communication
+   (VLC); hybrid RF; VLC; wireless fidelity (Wi-Fi); hybrid networks;
+   hybrid RF; VLC environments
+ID VISIBLE-LIGHT-COMMUNICATION; NONORTHOGONAL MULTIPLE-ACCESS;
+   MILLIMETER-WAVE COMMUNICATIONS; IMPULSE-RESPONSE; POWER ALLOCATION;
+   WIRELESS INFORMATION; INTENSITY-MODULATION; HETEROGENEOUS VLC;
+   DATA-TRANSMISSION; LINK SELECTION
+AB Wireless communications refer to data transmissions in unguided propagation media through the use of wireless carriers such as radio frequency (RF) and visible light (VL) waves. The rising demand for high data rates, especially, in indoor scenarios, overloads conventional RF technologies. Therefore, technologies such as millimeter waves (mmWave) and cognitive radios have been adopted as possible solutions to overcome the spectrum scarcity and capacity limitations of the conventional RF systems. In parallel, visible light communication (VLC) has been proposed as an alternative solution, where a light source is used for both illumination and data transmission. In comparison to RF links, VLC links present a very high bandwidth that allows much higher data rates. VLC exhibits also immunity to interference from electromagnetic sources, has unlicensed channels, is a very low power consumption system, and has no health hazard. VLC is appealing for a wide range of applications including reliable communications with low latency such as vehicle safety communication. Despite the major advantages of VLC technology and a variety of its applications, its use has been hampered by its cons such as its dependence on a line of sight connectivity. Recently, hybrid RF/VLC systems were proposed to take advantage of the high capacity of VLC links and better connectivity of RF links. Thus, hybrid RF/VLC systems are envisioned as a key enabler to improve the user rates and mobility on one hand and to optimize the capacity, interference and power consumption of the overall network on the other hand. This paper seeks to provide a detailed survey of hybrid RF/VLC systems. This paper represents an overview of the current developments in the hybrid RF/VLC systems, their benefits and limitations for both newcomers and expert researchers.
+C1 [Abuella, Hisham; Ekin, Sabit] Oklahoma State Univ OSU, Sch Elect & Comp Engn, Stillwater, OK 74078 USA.
+   [Elamassie, Mohammed; Uysal, Murat] Ozyegin Univ, Dept Elect & Elect Engn, TR-34794 Istanbul, Turkey.
+   [Xu, Zhengyuan] Univ Sci & Technol China, CAS Key Lab Wireless Optic Commun, Hefei 230052, Peoples R China.
+   [Serpedin, Erchin] Texas A&M Univ, Dept Elect & Comp Engn, College Stn, TX 77840 USA.
+   [Qaraqe, Khalid A.] Texas A&M Univ Qatar, Dept Elect & Comp Engn, Doha, Qatar.
+C3 Ozyegin University; Chinese Academy of Sciences; University of Science &
+   Technology of China, CAS; Texas A&M University System; Texas A&M
+   University College Station; Qatar Foundation (QF); Texas A&M University
+   Qatar
+RP Ekin, S (corresponding author), Oklahoma State Univ OSU, Sch Elect & Comp Engn, Stillwater, OK 74078 USA.
+EM sabit.ekin@okstate.edu
+RI Uysal, Murat/IWU-7998-2023; Elamassie, Mohammed/I-9696-2019; Ekin,
+   Sabit/A-8392-2011
+OI Elamassie, Mohammed/0000-0001-9416-3860; Uysal,
+   Murat/0000-0001-5945-0813; SERPEDIN, ERCHIN/0000-0001-9069-770X; Ekin,
+   Sabit/0000-0002-9957-7752; Qaraqe, Khalid/0000-0002-0766-9212
+FU Qatar National Research Fund (a member of the Qatar Foundation) [NPRP
+   13S-0130-200200]
+FX This work was supported by the Qatar National Research Fund (a member of
+   the Qatar Foundation) under Grant NPRP 13S-0130-200200.
+CR Aboagye S., 2020, PROC IEEE 92 VEH TEC, P1
+   Aboagye S, 2021, IEEE T WIREL COMMUN, V20, P6329, DOI 10.1109/TWC.2021.3073424
+   Abouzohri Eman Mohamed H., 2020, 2020 IEEE International Conference on Informatics, IoT, and Enabling Technologies (ICIoT), P429, DOI 10.1109/ICIoT48696.2020.9089610
+   Abuella H, 2019, IEEE T VEH TECHNOL, V68, P10406, DOI 10.1109/TVT.2019.2941705
+   Adnan-Qidan A, 2020, IEEE ACCESS, V8, P72512, DOI 10.1109/ACCESS.2020.2987545
+   Afgani MZ, 2006, 2006 2ND INTERNATIONAL CONFERENCE ON TESTBEDS AND RESEARCH INFRASTRUCTURES FOR THE DEVELOPMENT OF NETWORKS & COMMUNITIES, P80
+   Ahmed MF, 2020, IEEE PHOTONICS J, V12, DOI 10.1109/JPHOT.2020.3017642
+   Ai-Khori J, 2019, IEEE PHOTONICS J, V11, DOI 10.1109/JPHOT.2019.2905896
+   Al Hammadi A., 2019, IEEE ROMAN, P1, DOI 10.1109/WCNC.2019.8885577
+   Al Hammadi A, 2021, IEEE T VEH TECHNOL, V70, P398, DOI 10.1109/TVT.2020.3044837
+   Al-khori J., 2018, 2018 IEEE 88 VEH TEC
+   Al-khori J, 2019, INT CONF COMPUT NETW, P67, DOI [10.1109/iccnc.2019.8685634, 10.1109/ICCNC.2019.8685634]
+   Al-Khori J, 2019, IEEE ACCESS, V7, P10844, DOI 10.1109/ACCESS.2019.2891678
+   Al-Kinani A, 2020, IEEE ACCESS, V8, P140333, DOI 10.1109/ACCESS.2020.3012011
+   Al-Kinani A, 2018, IEEE T WIREL COMMUN, V17, P7981, DOI 10.1109/TWC.2018.2873323
+   Aldalbahi A, 2017, IEEE ACCESS, V5, P22144, DOI 10.1109/ACCESS.2017.2759779
+   Alenezi A.M., 2020, P 2020 IEEE 91 VEH T, P1, DOI [10.1109/VTC2020-Spring48590.2020.9128892, DOI 10.1109/VTC2020-SPRING48590.2020.9128892]
+   Alresheedi MT, 2017, IET COMMUN, V11, P311, DOI 10.1049/iet-com.2016.0495
+   Aly Bassam, 2021, 2021 17th International Symposium on Wireless Communication Systems (ISWCS), DOI 10.1109/ISWCS49558.2021.9562187
+   Aly B., 2020, 2020 12 INT S COMMUN, P1, DOI 10.1109/CSNDSP49049.2020.9249597
+   Amjad M., 2019, IFIP WIREL DAY, P1, DOI 10.1109/WD.2019.8734271
+   Amjad M, 2020, IEEE ACCESS, V8, P21653, DOI 10.1109/ACCESS.2020.2968624
+   [Anonymous], 2017, NAT COMMUN, DOI DOI 10.3991/IJES.V5I2.6700
+   [Anonymous], 2019, IEEE STANDARD LOC 15
+   [Anonymous], 2016, PROC IEEE 84 VEH TEC
+   [Anonymous], 2007, P 33 EUR C EXH OPT C
+   [Anonymous], 2016, P IEEE GLOB WORKSH G, DOI DOI 10.1109/GLOCOMW.2016.7848882
+   [Anonymous], 2013, 802 11AC SURVIVAL GU
+   [Anonymous], 2015, P IEEE 82 VEHICULAR
+   [Anonymous], 2017, P IEEE GLOB COMM C
+   Armstrong J, 2006, ELECTRON LETT, V42, P370, DOI 10.1049/el:20063636
+   Armstrong J, 2009, J LIGHTWAVE TECHNOL, V27, P189, DOI 10.1109/JLT.2008.2010061
+   Arshad R, 2021, IEEE T WIREL COMMUN, V20, P7404, DOI 10.1109/TWC.2021.3083604
+   Ashimbayeva A., 2017, I C APPL INF COMM TE, P1, DOI 10.1109/ICAICT.2017.8687098
+   Aydin R, 2014, IN C IND ENG ENG MAN, P1, DOI 10.1109/IEEM.2014.7058588
+   Ayub S, 2013, 2013 LOUGHBOROUGH ANTENNAS AND PROPAGATION CONFERENCE (LAPC), P106, DOI 10.1109/LAPC.2013.6711862
+   Ayyash M, 2016, IEEE COMMUN MAG, V54, P64, DOI 10.1109/MCOM.2016.7402263
+   Bai B., 2010, 19 ANN WIRELESS OPTI, P1
+   Bai L, 2019, IEEE COMMUN LETT, V23, P2022, DOI 10.1109/LCOMM.2019.2935713
+   Banda-Sayco Oswaldo R., 2020, 2020 IEEE Congreso Bienal de Argentina (ARGENCON), DOI 10.1109/ARGENCON49523.2020.9505441
+   Bao X, 2018, IEEE INT CONF COMMUN, P437, DOI 10.1109/ICCChina.2018.8641126
+   Bao X, 2017, WIREL NETW, V23, P299, DOI 10.1007/s11276-016-1233-z
+   Bao X, 2014, IEEE T VEH TECHNOL, V63, P1770, DOI 10.1109/TVT.2013.2286264
+   BARRY JR, 1993, IEEE J SEL AREA COMM, V11, P367, DOI 10.1109/49.219552
+   Basnayaka DA, 2015, IEEE VTS VEH TECHNOL
+   Bazzi A, 2016, COMPUT COMMUN, V93, P39, DOI 10.1016/j.comcom.2016.07.004
+   Becvar Z, 2018, VEH TECHNOL CONFE, DOI 10.1109/VTCSpring.2018.8417703
+   Belanger P.A., 1993, OPT PHOTONICS NEWS, V4, P20
+   Bloch M, 2008, IEEE T INFORM THEORY, V54, P2515, DOI 10.1109/TIT.2008.921908
+   Busari SA, 2018, IEEE COMMUN SURV TUT, V20, P836, DOI 10.1109/COMST.2017.2787460
+   Carruthers JB, 1997, IEEE T COMMUN, V45, P1260, DOI 10.1109/26.634690
+   Carruthers JB, 2002, IEEE T ANTENN PROPAG, V50, P759, DOI 10.1109/TAP.2002.1011244
+   Chaaban A, 2016, IEEE T COMMUN, V64, P1176, DOI 10.1109/TCOMM.2016.2524569
+   Chen JX, 2021, IEEE T COMMUN, V69, P5312, DOI 10.1109/TCOMM.2021.3077950
+   Chen JX, 2020, IEEE COMMUN LETT, V24, P868, DOI 10.1109/LCOMM.2020.2969624
+   Chen JX, 2020, IEEE T WIREL COMMUN, V19, P1965, DOI 10.1109/TWC.2019.2960229
+   Cheng L, 2018, IEEE ACCESS, V6, P2634, DOI 10.1109/ACCESS.2017.2784620
+   Chowdhury H, 2014, T EMERG TELECOMMUN T, V25, P666, DOI 10.1002/ett.2841
+   Chowdhury MZ, 2020, IEEE COMMUN SURV TUT, V22, P930, DOI 10.1109/COMST.2020.2966855
+   Chowdhury MZ, 2019, WIRELESS PERS COMMUN, V107, P1401, DOI 10.1007/s11277-018-5971-3
+   Chowdhury MZ, 2018, IEEE ACCESS, V6, P9819, DOI 10.1109/ACCESS.2018.2792419
+   Delgado-Rajo F, 2020, SENSORS-BASEL, V20, DOI 10.3390/s20020478
+   Din I, 2014, IEEE PHOTONIC TECH L, V26, P781, DOI 10.1109/LPT.2014.2306195
+   Ding ZG, 2017, IEEE J SEL AREA COMM, V35, P2181, DOI 10.1109/JSAC.2017.2725519
+   Do TH, 2019, IEEE ACCESS, V7, P35148, DOI 10.1109/ACCESS.2019.2904974
+   Drost RJ, 2010, IEEE GLOBE WORK, P980, DOI 10.1109/GLOCOMW.2010.5700472
+   Du ZY, 2018, IEEE ACCESS, V6, P33275, DOI 10.1109/ACCESS.2018.2844882
+   Duvnjak F, 2015, INT CONF SOFTW, P310, DOI 10.1109/SOFTCOM.2015.7314097
+   Elamassie M, 2018, VEH TECHNOL CONFE
+   Eldeeb H.B., 2020, DROPPED REF, P1, DOI 10.1109/CSNDSP49049.2020.9249643
+   Eldeeb HB, 2021, IEEE ACCESS, V9, P103885, DOI 10.1109/ACCESS.2021.3099772
+   Eldeeb HB, 2019, 2019 15TH INTERNATIONAL CONFERENCE ON TELECOMMUNICATIONS (CONTEL), DOI 10.1109/contel.2019.8848562
+   Elgala H, 2007, IEEE VTS VEH TECHNOL, P2185, DOI 10.1109/VETECS.2007.451
+   Elgala H, 2009, IEEE T CONSUM ELECTR, V55, P1127, DOI 10.1109/TCE.2009.5277966
+   Feng LF, 2016, IEEE NETWORK, V30, P77, DOI 10.1109/MNET.2016.1500236RP
+   Fuada S, 2018, OPTIK, V156, P847, DOI 10.1016/j.ijleo.2017.11.180
+   Fujimoto N, 2013, 2013 OPTICAL FIBER COMMUNICATION CONFERENCE AND EXPOSITION AND THE NATIONAL FIBER OPTIC ENGINEERS CONFERENCE (OFC/NFOEC)
+   Gancarz J, 2013, IEEE COMMUN MAG, V51, P34, DOI 10.1109/MCOM.2013.6685755
+   Gao Q, 2016, J LIGHTWAVE TECHNOL, V34, P5516, DOI 10.1109/JLT.2016.2622008
+   GFELLER FR, 1979, P IEEE, V67, P1474, DOI 10.1109/PROC.1979.11508
+   Ghassemlooy Z, 2013, OPTICAL WIRELESS COMMUNICATIONS: SYSTEM AND CHANNEL MODELLING WITH MATLAB(R), P1
+   Ghassemlooy Z., 2017, VISIBLE LIGHT COMMUN, V1st, P69
+   Goel A., 2008, FLEET TELEMATICS REA
+   Gong C, 2015, IEEE T SIGNAL PROCES, V63, P4245, DOI 10.1109/TSP.2015.2439232
+   Gupta A, 2015, IEEE ACCESS, V3, P1206, DOI 10.1109/ACCESS.2015.2461602
+   Tran HV, 2019, IEEE T COMMUN, V67, P6243, DOI 10.1109/TCOMM.2019.2916874
+   Haas H., 2018, REV PHYS, V3, P26, DOI [10.1016/j.revip.2017.10.001, DOI 10.1016/J.REVIP.2017.10.001]
+   Haas H, 2016, J LIGHTWAVE TECHNOL, V34, P1533, DOI 10.1109/JLT.2015.2510021
+   Hammouda M, 2018, 2018 25TH INTERNATIONAL CONFERENCE ON TELECOMMUNICATIONS (ICT), P312, DOI 10.1109/ICT.2018.8464895
+   Hammouda M, 2018, IEEE T WIREL COMMUN, V17, P2738, DOI 10.1109/TWC.2018.2802937
+   Han Y, 2018, INT CONF COMPUT NETW, P480, DOI 10.1109/ICCNC.2018.8390269
+   Hayasaka N, 2007, ELECTRON COMM JPN 1, V90, P9, DOI 10.1002/ccja.20352
+   Hsiao Y. C., 2018, PROC 15 ANN IEEE INT, P1, DOI 10.1109/SAHCN.2018.8397105
+   Hu Pengfei, 2015, P 11 ACM C EM NETW E
+   Huang W, 2017, IEEE PHOTONICS J, V9, DOI 10.1109/JPHOT.2017.2681660
+   Hussain SI, 2014, 2014 6TH INTERNATIONAL SYMPOSIUM ON COMMUNICATIONS, CONTROL AND SIGNAL PROCESSING (ISCCSP), P81, DOI 10.1109/ISCCSP.2014.6877821
+   Jackson DK, 1998, IEEE T IND APPL, V34, P625, DOI 10.1109/28.673734
+   Jin F, 2015, IEEE T WIREL COMMUN, V14, P1020, DOI 10.1109/TWC.2014.2363451
+   Jun JG, 2003, IEEE WIREL COMMUN, V10, P8, DOI 10.1109/MWC.2003.1241089
+   Kafafy M., 2017, AUTOTESTCON 2017 IEE, P1, DOI 10.1109/WCNC.2017.7925892
+   Kahn JM, 1997, P IEEE, V85, P265, DOI 10.1109/5.554222
+   Kaiyun Cui, 2010, 2010 7th International Symposium on Communication Systems, Networks & Digital Signal Processing (CSNDSP 2010), P621
+   Karbalayghareh M, 2020, IEEE T VEH TECHNOL, V69, P6891, DOI 10.1109/TVT.2020.2993294
+   Karunatilaka D, 2015, IEEE COMMUN SURV TUT, V17, P1649, DOI 10.1109/COMST.2015.2417576
+   Kashef M, 2018, IEEE T GREEN COMMUN, V2, P234, DOI 10.1109/TGCN.2017.2774104
+   Kashef M, 2016, IEEE GLOB COMM CONF
+   Kashef M, 2015, IEEE GLOB COMM CONF, DOI 10.1109/GLOCOM.2015.7417378
+   Kashef M, 2016, IEEE J SEL AREA COMM, V34, P883, DOI 10.1109/JSAC.2016.2544618
+   Khreishah A, 2018, IEEE T GREEN COMMUN, V2, P932, DOI 10.1109/TGCN.2018.2849944
+   Kong J, 2019, IEEE T WIREL COMMUN, V18, P4171, DOI 10.1109/TWC.2019.2922611
+   Küçük K, 2021, OPT COMMUN, V488, DOI 10.1016/j.optcom.2021.126837
+   Kumar A, 2021, IEEE SYST J, V15, P68, DOI 10.1109/JSYST.2020.2964033
+   Kurihara T. M., 160902019 IEEE
+   Lapidoth A, 2009, IEEE T INFORM THEORY, V55, P4449, DOI 10.1109/TIT.2009.2027522
+   Le Minh H, 2008, IEEE PHOTONIC TECH L, V20, P1243, DOI 10.1109/LPT.2008.926030
+   Lee K, 2011, IEEE COMMUN LETT, V15, P217, DOI 10.1109/LCOMM.2011.010411.101945
+   Li HL, 2014, IEEE PHOTONIC TECH L, V26, P119, DOI 10.1109/LPT.2013.2290026
+   Li L, 2016, IEEE COMMUN LETT, V20, P2276, DOI 10.1109/LCOMM.2016.2598559
+   Li X, 2018, IEEE COMMUN SURV TUT, V20, P1878, DOI 10.1109/COMST.2018.2813433
+   Li X, 2015, IEEE T COMMUN, V63, P1319, DOI 10.1109/TCOMM.2015.2409172
+   Li ZC, 2018, INT WIREL COMMUN, P194, DOI 10.1109/IWCMC.2018.8450350
+   Liao ZH, 2018, IEEE COMMUN LETT, V22, P2603, DOI 10.1109/LCOMM.2018.2873725
+   Lin BJ, 2017, IEEE PHOTONIC TECH L, V29, P579, DOI 10.1109/LPT.2017.2669079
+   Ling XT, 2018, J LIGHTWAVE TECHNOL, V36, P1928, DOI 10.1109/JLT.2018.2796120
+   Little T. D., 2015, P IEEE SUMM TOP M SE, P163
+   Liu BY, 2018, IEEE ICC
+   Liu CH, 2021, IEEE WCNC, DOI 10.1109/WCNC49053.2021.9417407
+   Liu J, 2012, IEEE GLOBE WORK, P1254, DOI 10.1109/GLOCOMW.2012.6477761
+   Lopez-Hernandez FJ, 1998, ELECTRON LETT, V34, P1260, DOI 10.1049/el:19980825
+   Lou S, 2017, IEEE COMMUN LETT, V21, P1043, DOI 10.1109/LCOMM.2017.2657740
+   Luo PF, 2018, IEEE COMMUN MAG, V56, P204, DOI 10.1109/MCOM.2018.1601017
+   Luo PF, 2015, APPL OPTICS, V54, P1696, DOI 10.1364/AO.54.001696
+   Ma WB, 2019, INT CONF COMPUT NETW, P413, DOI [10.1109/ICCNC.2019.8685578, 10.1109/iccnc.2019.8685578]
+   Mach P, 2017, 2017 IEEE 28TH ANNUAL INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR, AND MOBILE RADIO COMMUNICATIONS (PIMRC), DOI 10.1109/PIMRC.2017.8292746
+   Mai VV, 2017, IEEE INT CONF COMM, P457, DOI 10.1109/ICCW.2017.7962700
+   Marshoud H, 2016, IEEE PHOTONIC TECH L, V28, P51, DOI 10.1109/LPT.2015.2479600
+   Marzban MF, 2017, INT WIREL COMMUN, P258, DOI 10.1109/IWCMC.2017.7986296
+   McBride A, 2014, 2014 1ST INTERNATIONAL CONFERENCE ON 5G FOR UBIQUITOUS CONNECTIVITY (5GU), P222, DOI 10.4108/icst.5gu.2014.258129
+   McKendry JJD, 2010, IEEE PHOTONIC TECH L, V22, P1346, DOI 10.1109/LPT.2010.2056360
+   Melloukl A, 2017, BIOINSPIRED ROUTING
+   Mesleh R, 2011, J OPT COMMUN NETW, V3, P620, DOI 10.1364/JOCN.3.000620
+   Monteiro E, 2014, J LIGHTWAVE TECHNOL, V32, P2053, DOI 10.1109/JLT.2014.2314358
+   Monteiro E, 2012, IEEE GLOBE WORK, P1224, DOI 10.1109/GLOCOMW.2012.6477755
+   Mostafa A, 2014, IEEE ICC, P3342, DOI 10.1109/ICC.2014.6883837
+   Namdar M, 2018, IET COMMUN, V12, P2104, DOI 10.1049/iet-com.2018.5389
+   Nantivatana P., 2016, IEICE P SERIES, V61, P69
+   Nauryzbayev G, 2020, IEEE T COGN COMMUN, V6, P1096, DOI 10.1109/TCCN.2020.2990771
+   Nauryzbayev G, 2020, IEEE T VEH TECHNOL, V69, P6828, DOI 10.1109/TVT.2020.2981871
+   Nitsche T, 2014, IEEE COMMUN MAG, V52, P132, DOI 10.1109/MCOM.2014.6979964
+   Noshad M, 2014, J LIGHTWAVE TECHNOL, V32, P883, DOI 10.1109/JLT.2013.2295512
+   Noshad M, 2012, IEEE GLOB COMM CONF, P2930, DOI 10.1109/GLOCOM.2012.6503562
+   Ntogari G, 2011, J OPT COMMUN NETW, V3, P56, DOI 10.1364/JOCN.3.000056
+   Obeed M., 2019, ARXIV190810803
+   Obeed M, 2017, IEEE GLOB COMM CONF
+   Obeed M, 2021, IEEE COMMUN LETT, V25, P560, DOI 10.1109/LCOMM.2020.3029178
+   Obeed M, 2019, IEEE COMMUN SURV TUT, V21, P2947, DOI 10.1109/COMST.2019.2906225
+   Obeed M, 2018, J OPT COMMUN NETW, V10, P553, DOI 10.1364/JOCN.10.000553
+   Pan GF, 2019, IEEE T GREEN COMMUN, V3, P853, DOI 10.1109/TGCN.2019.2908839
+   Pan GF, 2017, IEEE INT WORK SIGN P
+   Pan GF, 2017, IEEE T COMMUN, V65, P4348, DOI 10.1109/TCOMM.2017.2709314
+   Pang G., 1999, Proceedings 199 IEEE/IEEJ/JSAI International Conference on Intelligent Transportation Systems (Cat. No.99TH8383), P788, DOI 10.1109/ITSC.1999.821161
+   Papanikolaou V. K., 2018, IEEE GLOB COMM CONF, P1, DOI 10.1109/GLOCOM.2018.8647397
+   Papanikolaou VK, 2020, IEEE T COGN COMMUN, V6, P352, DOI 10.1109/TCCN.2019.2963879
+   Papanikolaou VK, 2019, IEEE ACCESS, V7, P103299, DOI 10.1109/ACCESS.2019.2930169
+   Pathak PH, 2015, IEEE COMMUN SURV TUT, V17, P2047, DOI 10.1109/COMST.2015.2476474
+   Peng HJ, 2021, IEEE INTERNET THINGS, V8, P17356, DOI 10.1109/JIOT.2021.3080518
+   Pérez SR, 2002, MICROW OPT TECHN LET, V32, P296, DOI 10.1002/mop.10159
+   PerezJimenez R, 1997, ELECTRON LETT, V33, P1298, DOI 10.1049/el:19970866
+   Perrig A, 2004, COMMUN ACM, V47, P53, DOI 10.1145/990680.990707
+   Petkovic M.I., 2019, INT CONF WIREL OPT, P1
+   Pi ZY, 2011, IEEE COMMUN MAG, V49, P101, DOI 10.1109/MCOM.2011.5783993
+   Qingshan Chen, 2020, 2020 International Wireless Communications and Mobile Computing (IWCMC), P365, DOI 10.1109/IWCMC48107.2020.9148315
+   Qiu Y, 2018, IEEE WIREL COMMUN, V25, P178, DOI 10.1109/MWC.2017.1700051
+   Rachim VP, 2018, IEEE PHOTONIC TECH L, V30, P903, DOI 10.1109/LPT.2018.2823784
+   Rahaim MB, 2015, IEEE WIREL COMMUN, V22, P97, DOI 10.1109/MWC.2015.7224733
+   Rahaim MB, 2011, IEEE GLOBE WORK, P792, DOI 10.1109/GLOCOMW.2011.6162563
+   Rajagopal S, 2012, IEEE COMMUN MAG, V50, P72, DOI 10.1109/MCOM.2012.6163585
+   Rakia T, 2016, IEEE COMMUN LETT, V20, P1979, DOI 10.1109/LCOMM.2016.2595561
+   Rappaport T., 2014, MILLIMETER WAVE WIRE
+   Rappaport TS, 2013, IEEE ACCESS, V1, P335, DOI 10.1109/ACCESS.2013.2260813
+   Salomo Y, 2018, IEEE ACCESS, V6, P32173, DOI 10.1109/ACCESS.2018.2844874
+   Saud M. S., 2017, IEEE SYSTEMS SYSTEMS, P1, DOI [DOI 10.1109/SYSOSE.2019, 10.1109/WCNC.2017.7925873, DOI 10.1109/WCNC.2017.7925873]
+   Shao SH, 2016, IEEE T WIREL COMMUN, V15, P8406, DOI 10.1109/TWC.2016.2614822
+   Shao SH, 2014, IEEE INT CONF MOB, P569, DOI 10.1109/MASS.2014.76
+   Shao SH, 2015, J OPT COMMUN NETW, V7, P960, DOI 10.1364/JOCN.7.000960
+   Stefan I., 2014, 2014 IEEE 80 VEH TEC, P1, DOI [10.1109/VTCFall.2014.6965999, DOI 10.1109/VTCFALL.2014.6965999]
+   Stefan I, 2013, IEEE ICC, P3825, DOI 10.1109/ICC.2013.6655152
+   Su YW, 2017, ICT EXPRESS, V3, P62, DOI 10.1016/j.icte.2017.05.002
+   Tabassum H, 2018, IEEE T WIREL COMMUN, V17, P2588, DOI 10.1109/TWC.2018.2799204
+   Tanaka Y, 2000, PIMRC 2000: 11TH IEEE INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR AND MOBILE RADIO COMMUNICATIONS, VOLS 1 AND 2, PROCEEDINGS, P1325
+   Tseng HY, 2015, IEEE VEHIC NETW CONF, P88, DOI 10.1109/VNC.2015.7385552
+   Tsonev D, 2015, IEEE J SEL AREA COMM, V33, P1758, DOI 10.1109/JSAC.2015.2432530
+   Tsonev D, 2014, PROC SPIE, V9007, DOI 10.1117/12.2044649
+   Tsonev D, 2014, IEEE PHOTONIC TECH L, V26, P637, DOI 10.1109/LPT.2013.2297621
+   Ucar S, 2018, IEEE T VEH TECHNOL, V67, P8667, DOI 10.1109/TVT.2018.2840846
+   Uwaechia AN, 2020, IEEE ACCESS, V8, P62367, DOI 10.1109/ACCESS.2020.2984204
+   Uysal M., 2018, 111815820200BB IEEE
+   Uysal M, 2015, IEEE VEH TECHNOL MAG, V10, P45, DOI 10.1109/MVT.2015.2481561
+   Vats A, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON COMPUTING, COMMUNICATION AND AUTOMATION (ICCCA), P1401, DOI 10.1109/CCAA.2017.8230060
+   Vats A, 2017, SPRINGER PROC PHYS, V194, P347, DOI 10.1007/978-981-10-3908-9_42
+   Vats A, 2017, 2017 INTERNATIONAL CONFERENCE ON COMPUTER, COMMUNICATIONS AND ELECTRONICS (COMPTELIX), P254, DOI 10.1109/COMPTELIX.2017.8003974
+   Vavoulas A, 2015, J LIGHTWAVE TECHNOL, V33, P4915, DOI 10.1109/JLT.2015.2492420
+   Vegni A. M., 2012, 2012 International Conference on Computing, Networking and Communications (ICNC), P126, DOI 10.1109/ICCNC.2012.6167395
+   Viriyasitavat W, 2013, IEEE VEHIC NETW CONF, P170, DOI 10.1109/VNC.2013.6737605
+   Vivek N, 2017, IEEE REGION 10 SYMP
+   Vucic J, 2010, 2010 36TH EUROPEAN CONFERENCE AND EXHIBITION ON OPTICAL COMMUNICATION (ECOC), VOLS 1 AND 2
+   Vuic J., 2010, 2010 C OPTICAL FIBER, P1, DOI [10.1364/OFC.2010.OThH3, DOI 10.1364/OFC.2010.OTHH3]
+   Wang F, 2015, J OPT COMMUN NETW, V7, P1172, DOI 10.1364/JOCN.7.001172
+   Wang JJ, 2018, IEEE T VEH TECHNOL, V67, P3561, DOI 10.1109/TVT.2017.2778345
+   Wang JB, 2013, J LIGHTWAVE TECHNOL, V31, DOI 10.1109/JLT.2013.2286088
+   Wang X, 2018, IEEE COMMUN SURV TUT, V20, P1616, DOI 10.1109/COMST.2018.2844322
+   Wang YL, 2017, IEEE T COMMUN, V65, P1708, DOI 10.1109/TCOMM.2017.2654249
+   Wang YL, 2017, IEEE T WIREL COMMUN, V16, P2366, DOI 10.1109/TWC.2017.2664821
+   Wang YL, 2015, 2015 IEEE 26TH ANNUAL INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR, AND MOBILE RADIO COMMUNICATIONS (PIMRC), P1289, DOI 10.1109/PIMRC.2015.7343497
+   Wang YL, 2015, J LIGHTWAVE TECHNOL, V33, P4671, DOI 10.1109/JLT.2015.2480969
+   Wang Z., 2017, VISIBLE LIGHT COMMUN
+   Wei LL, 2014, IEEE WIREL COMMUN, V21, P136, DOI 10.1109/MWC.2014.7000981
+   Wei ZQ, 2020, IEEE T COMMUN, V68, P536, DOI 10.1109/TCOMM.2019.2948343
+   Wu FZ, 2017, IEEE PHOTONICS J, V9, DOI 10.1109/JPHOT.2017.2728102
+   Wu SE, 2014, IEEE NETWORK, V28, P41, DOI 10.1109/MNET.2014.6963803
+   Wu WH, 2018, IEEE T COMMUN, V66, P5568, DOI 10.1109/TCOMM.2018.2831207
+   Wu WH, 2017, INT CONF SEL TOP MOB, P70
+   Wu X., 2017, POLICY CAPACITY GOVE, P1
+   Wu X., ARXIV200104840
+   Wu X., 2017, 2017 IEEE 18 INT WOR, DOI DOI 10.1109/SPAWC.2017.8227704
+   Wu XP, 2017, IEEE T COMMUN, V65, P5375, DOI 10.1109/TCOMM.2017.2740211
+   Wu ZY, 2020, IEEE INTERNET THINGS, V7, P5088, DOI 10.1109/JIOT.2020.2975851
+   Xiang Y, 2014, OPT ENG, V53, DOI 10.1117/1.OE.53.8.086113
+   Xiao Y, 2021, IEEE T COMMUN, V69, P2532, DOI 10.1109/TCOMM.2021.3051908
+   Xiaojun Wu, 2016, 2016 13th International Conference on Service Systems and Service Management (ICSSSM), P1, DOI 10.1109/ICSSSM.2016.7538581
+   Yamazato T, 2015, IEEE J SEL AREA COMM, V33, P1793, DOI 10.1109/JSAC.2015.2432511
+   Yamazato T, 2014, IEEE COMMUN MAG, V52, P88, DOI 10.1109/MCOM.2014.6852088
+   Yang HL, 2020, IEEE NETWORK, V34, P134, DOI 10.1109/MNET.011.1900567
+   Yang HL, 2020, IEEE T IND INFORM, V16, P5565, DOI 10.1109/TII.2019.2933867
+   Yeh CH, 2013, OPT EXPRESS, V21, P26192, DOI 10.1364/OE.21.026192
+   Yin L, 2018, IEEE J SEL AREA COMM, V36, P162, DOI 10.1109/JSAC.2017.2774429
+   Zadobrischi E, 2020, 2020 15TH INTERNATIONAL CONFERENCE ON DEVELOPMENT AND APPLICATION SYSTEMS (DAS), P78, DOI [10.1109/DAS49615.2020.9108908, 10.1109/das49615.2020.9108908]
+   Zenaidi MR, 2017, IEEE GLOB COMM CONF
+   Zeng ZH, 2020, IEEE T COMMUN, V68, P2978, DOI 10.1109/TCOMM.2020.2974458
+   Zhang C, 2018, ASIAPAC SIGN INFO PR, P436, DOI 10.23919/APSIPA.2018.8659786
+   Zhang C, 2018, IEEE T COMMUN, V66, P6396, DOI 10.1109/TCOMM.2018.2865949
+   Zhang HJ, 2018, IEEE J SEL AREA COMM, V36, P658, DOI 10.1109/JSAC.2018.2815478
+   Zhang H, 2018, PROC INT CONF PARAL, DOI 10.1145/3225058.3225100
+   Zhang W., 2017, J COMMUN INF NETW, V2, P75, DOI DOI 10.1007/S41650-017-0039-1
+   Zhao H, 2019, IEEE COMMUN LETT, V23, P1479, DOI 10.1109/LCOMM.2019.2926360
+   Zheng G, 2016, IEEE INT C BIOINF BI, P1, DOI 10.1109/BIBE.2016.11
+   Zhuang Y, 2018, IEEE COMMUN SURV TUT, V20, P1963, DOI 10.1109/COMST.2018.2806558
+NR 247
+TC 19
+Z9 19
+U1 3
+U2 17
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2021
+VL 9
+BP 160402
+EP 160436
+DI 10.1109/ACCESS.2021.3129154
+PG 35
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA XM6FG
+UT WOS:000728919800001
+OA Green Submitted, gold
+DA 2023-10-21
+ER
+
+PT J
+AU Lu, HH
+   Li, CY
+   Tsai, WS
+   Chen, YX
+   Fan, WC
+   Lin, YS
+   Peng, YE
+   Tang, YS
+AF Lu, Hai-Han
+   Li, Chung-Yi
+   Tsai, Wen-Shing
+   Chen, Yen-Xiang
+   Fan, Wei-Cheng
+   Lin, Yu-Shen
+   Peng, Yu-En
+   Tang, Yu-Sheng
+TI 5G-Based Triple-Wavelength VLLC-UWLT and Laboratory-Lighting Convergent
+   Systems
+SO JOURNAL OF LIGHTWAVE TECHNOLOGY
+LA English
+DT Article
+DE 5G mobile communication; Injection-locked oscillators; Oceans; Optical
+   fibers; OFDM; Lighting; Wavelength division multiplexing;
+   Fifth-generation (5G); laboratory-lighting; triple-wavelength;
+   uuderwater wireless laser transmission (UWLT); visible laser light
+   communication (VLLC)
+ID LASER; TRANSMISSION; 5G; LOCKING; GBIT/S
+AB Fifth-generation (5G)-based triple-wavelength visible laser light communication (VLLC)-underwater wireless laser transmission (UWLT) and laboratory-lighting convergent systems with 30 Gbit/s high aggregate transmission rates and 752 lux laboratory-level white-light illumination is successfully achieved. It exhibits a 5G-based triple-wavelength VLLC-UWLT and laboratory-lighting convergence using a red/green/blue (R/G/B) triple-wavelength as a presentation. RGB laser diodes with three-stage injection locking scheme modulate 5G millimeter-wave (MMW) 10-Gbit/s/24-GHz signals and afford high cumulative data rates with high-intensity laboratory-lighting. Over a cross-medium of 10-m VLLC with 8.8-m ocean water-air-ocean water links, satisfactorily low bit error rate (<3.8 x 10(-3) forward error correction limit) with clear constellations and error vector magnitude (<12.5% required limit) are obtained. Through 3-m liquid light guide transmission, high-intensity white-lighting at laboratory-level is acquired. Such demonstrated 5G-based triple-wavelength VLLC-UWLT and laboratory-lighting convergent system shows promise as it develops the scenario realized by the 5G MMW signal through the VLLC with UWLT convergence, and also affords the dual-functionality of high-speed VLLC-UWLT transmission with high-intensity laboratory-lighting.
+C1 [Lu, Hai-Han; Chen, Yen-Xiang; Fan, Wei-Cheng; Lin, Yu-Shen; Peng, Yu-En; Tang, Yu-Sheng] Natl Taipei Univ Technol, Inst Electroopt Engn, Taipei City 10608, Taiwan.
+   [Li, Chung-Yi] Natl Taipei Univ, Dept Commun Engn, Taipei City 23741, Taiwan.
+   [Tsai, Wen-Shing] Ming Chi Univ Technol, Dept Elect Engn, Taipei City 243303, Taiwan.
+C3 National Taipei University of Technology; National Taipei University;
+   Ming Chi University of Technology
+RP Lu, HH (corresponding author), Natl Taipei Univ Technol, Inst Electroopt Engn, Taipei City 10608, Taiwan.
+EM hhlu@ntut.edu.tw; cyli@gm.ntpu.edu.tw; wst@mail.mcut.edu.tw;
+   u10603013@go.utaipei.edu.tw; zero880613@gmail.com; sk3419056@gmail.com;
+   ianpeng1996@gmail.com; u0523115@gmail.com
+RI Fan, Weicheng/HOA-6728-2023
+FU National Science and Technology Council of Taiwan
+   [110-2221-E-027-068-MY3, 111-2221-E-027-031-MY3]; Qualcomm Technologies,
+   Inc. [NAT-487829]; National Taipei University of Technology-National
+   Taipei University Research Collaboration Project [USTP-NTUT-NTPU-111-01]
+FX This work was supported in part by the National Science and Technology
+   Council of Taiwan under Grants 110-2221-E-027-068-MY3 and
+   111-2221-E-027-031-MY3, in part by the Qualcomm Technologies, Inc. under
+   Grant NAT-487829, and in part by the National Taipei University of
+   Technology-National Taipei University Research Collaboration Project
+   under Grant USTP-NTUT-NTPU-111-01.
+CR 3rdGeneration Partnership Project (3GPP), 2018, 36104 3GPP
+   Acar E., 2021, TECH ART, P1
+   Balocco C, 2019, SUSTAINABILITY-BASEL, V11, DOI 10.3390/su11113145
+   Bohata J, 2022, IEEE PHOTONIC TECH L, V34, P7, DOI 10.1109/LPT.2021.3134559
+   Cunha MSB, 2021, IEEE J SEL TOP QUANT, V27, DOI 10.1109/JSTQE.2020.3017140
+   Chang CH, 2002, IEEE PHOTONIC TECH L, V14, P1635, DOI 10.1109/LPT.2002.803903
+   Chen L. K., 2021, PROC C OPT FIBER COM, P1
+   Chen LK, 2022, J LIGHTWAVE TECHNOL, V40, P1440, DOI 10.1109/JLT.2021.3125140
+   Chun H, 2019, SCI REP-UK, V9, DOI 10.1038/s41598-019-41397-6
+   Dat PT, 2019, IEEE CONF COMPUT, P1003, DOI [10.1109/INFCOMW.2019.8845283, 10.1109/infcomw.2019.8845283]
+   Lopes CHD, 2021, J LIGHTWAVE TECHNOL, V39, P406, DOI 10.1109/JLT.2020.3029500
+   Hayat A, 2009, IEEE T MICROW THEORY, V57, P1850, DOI 10.1109/TMTT.2009.2022809
+   Henry S, 2020, IEEE ACCESS, V8, P42828, DOI 10.1109/ACCESS.2020.2977406
+   Huang XH, 2021, J LIGHTWAVE TECHNOL, V39, P4351, DOI 10.1109/JLT.2021.3073395
+   Issaoui L, 2022, IEEE PHOTONIC TECH L, V34, P97, DOI 10.1109/LPT.2022.3140763
+   Jurado-Navas A, 2022, SENSORS-BASEL, V22, DOI 10.3390/s22072464
+   Lau EK, 2004, 2004 IEEE INTERNATIONAL TOPICAL MEETING ON MICROWAVE PHOTONICS, TECHNICAL DIGEST, P142, DOI 10.1109/MWP.2004.1396857
+   Lee IE, 2017, 2017 CONFERENCE ON LASERS AND ELECTRO-OPTICS PACIFIC RIM (CLEO-PR)
+   Li CY, 2019, CHIN OPT LETT, V17, DOI 10.3788/COL201917.100004
+   LI CY, 2018, IEEE PHOTONICS J, V10, P1
+   Lu HH, 2022, J LIGHTWAVE TECHNOL, V40, P2348, DOI 10.1109/JLT.2021.3139620
+   Lu HH, 2021, J LIGHTWAVE TECHNOL, V39, P7179, DOI 10.1109/JLT.2021.3113641
+   Lu HH, 2016, IEEE PHOTONICS J, V8, DOI 10.1109/JPHOT.2016.2601778
+   Lu HH, 2010, OPT LETT, V35, P279, DOI 10.1364/OL.35.000279
+   Lumatec, 2022, LIQ LIGHT GUID ENG M
+   MOGENSEN F, 1985, IEEE J QUANTUM ELECT, V21, P784, DOI 10.1109/JQE.1985.1072760
+   Oubei HM, 2015, OPT EXPRESS, V23, P23302, DOI 10.1364/OE.23.023302
+   Perera TDP, 2019, IEEE INT CONF DISTR, P502, DOI 10.1109/DCOSS.2019.00097
+   Shafik RA, 2006, ICECE 2006: PROCEEDINGS OF THE 4TH INTERNATIONAL CONFERENCE ON ELECTRICAL AND COMPUTER ENGINEERING, P408
+   Tsai WS, 2020, IEEE ACCESS, V8, P16913, DOI 10.1109/ACCESS.2020.2967856
+   Wei LY, 2019, OPT EXPRESS, V27, P25072, DOI 10.1364/OE.27.025072
+   Wei LY, 2019, 2019 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXHIBITION (OFC)
+   Xu J, 2016, OPT EXPRESS, V24, P8097, DOI 10.1364/OE.24.008097
+   Yeh CH, 2017, SCI REP-UK, V7, DOI 10.1038/s41598-017-15856-x
+   Ying CL, 2015, LASER PHYS LETT, V12, DOI 10.1088/1612-2011/12/12/125202
+   Zhao XX, 2007, OPT EXPRESS, V15, P14810, DOI 10.1364/OE.15.014810
+NR 36
+TC 0
+Z9 0
+U1 1
+U2 1
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0733-8724
+EI 1558-2213
+J9 J LIGHTWAVE TECHNOL
+JI J. Lightwave Technol.
+PD APR 15
+PY 2023
+VL 41
+IS 8
+BP 2351
+EP 2360
+DI 10.1109/JLT.2022.3231852
+PG 10
+WC Engineering, Electrical & Electronic; Optics; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Optics; Telecommunications
+GA D2GS3
+UT WOS:000966963500001
+DA 2023-10-21
+ER
+
+PT J
+AU Wei, ZX
+   Wang, ZM
+   Zhang, JA
+   Li, Q
+   Zhang, JP
+   Fu, HY
+AF Wei, Zixian
+   Wang, Zhaoming
+   Zhang, Jianan
+   Li, Qian
+   Zhang, Junping
+   Fu, H. Y.
+TI Evolution of optical wireless communication for B5G/6G
+SO PROGRESS IN QUANTUM ELECTRONICS
+LA English
+DT Review
+DE B5G; 6G era; Optical wireless communication; High-bandwidth devices;
+   Air-interface technology; Heterogeneous system
+ID VISIBLE-LIGHT COMMUNICATION; RECEIVED-SIGNAL-STRENGTH; BODY AREA
+   NETWORKS; HIGH-SPEED; INDOOR LOCALIZATION; EMITTING-DIODES;
+   COLOR-CONVERTER; QUANTUM DOTS; ACO-OFDM; GAN
+AB The research on optical wireless communication (OWC) has been going on for more than two decades. Particularly, visible light communication (VLC), as a means of OWC combining communication with illumination, has been regarded as a promising indoor high-speed wireless approach for short-distance access. Recently, lightwave, millimeter-wave (mmWave), terahertz (THz) and other spectrum mediums are considered as potential candidates for beyond fifthgeneration/sixth-generation (B5G/6G) mobile communication networks. On the basis of previous studies, this review focuses on revealing how the research of next-generation OWC technology should be carried out to meet the requirements of B5G/6G for practical deployment. The research, development and engineering transformation of the OWC systems are a paragon of interdisciplinary. It involves a wide discussion on how to build a high-speed, multi-user, full-duplex, whitelight OWC system based on existing technologies by showing the innovations and trade-offs at various levels with material, device, air-interface technology, system and network architecture. The compatibility of OWC is emphasized and some advanced heterogeneous OWC systems are presented, which involves the combination or integration of various functions such as sensing, near-infrared (NIR) beam-steering, positioning and coexistence with radio frequency (RF) communication. Finally, several potential directions are pointed out for the actual engineering deployment in the B5G/6G era.
+C1 [Wei, Zixian; Wang, Zhaoming; Zhang, Jianan; Fu, H. Y.] Tsinghua Univ, Tsinghua Shenzhen Int Grad Sch, Shenzhen 518055, Peoples R China.
+   [Li, Qian] Peking Univ, Sch Elect & Comp Engn, Shenzhen 518055, Peoples R China.
+   [Zhang, Junping] Huawei Technol Co Ltd, Cent Res Inst, Shenzhen 518129, Peoples R China.
+   [Fu, H. Y.] Tsinghua Univ, Tsinghua Shenzhen Int Grad Sch, Off 1510, Informat Bldg,Lishui Rd, Shenzhen 518055, Peoples R China.
+   [Zhang, Junping] Huawei Technol Co Ltd, Bantian St, Shenzhen 518129, Peoples R China.
+C3 Tsinghua University; Peking University; Huawei Technologies; Tsinghua
+   University; Huawei Technologies
+RP Fu, HY (corresponding author), Tsinghua Univ, Tsinghua Shenzhen Int Grad Sch, Shenzhen 518055, Peoples R China.; Zhang, JP (corresponding author), Huawei Technol Co Ltd, Cent Res Inst, Shenzhen 518129, Peoples R China.; Fu, HY (corresponding author), Tsinghua Univ, Tsinghua Shenzhen Int Grad Sch, Off 1510, Informat Bldg,Lishui Rd, Shenzhen 518055, Peoples R China.; Zhang, JP (corresponding author), Huawei Technol Co Ltd, Bantian St, Shenzhen 518129, Peoples R China.
+EM junping.zhang@huawei.com; hyfu@sz.tsinghua.edu.cn
+RI Wang, Zhaoming/HGC-4553-2022
+OI Wang, Zhaoming/0000-0002-4799-8061; Wei, Zixian/0000-0001-6360-124X
+FU Yibin Li of Tsinghua-Berkeley Shenzhen Institute (TBSI) , Tsinghua
+   University [HW2020006]; Youth Science and Technology Innovation Talent
+   of Guangdong Province [2019TQ05X227]; Overseas Research Cooperation Fund
+   of Tsinghua Shenzhen International Graduate School [HW2020006]
+FX The authors would like to thank Denghui Pan, Bohua Deng, Zhi Li, Yang
+   Luo, Xin Liu, Zhenquan Zhao, Yuan Zhang, Mutong Li, and Yibin Li of
+   Tsinghua-Berkeley Shenzhen Institute (TBSI) , Tsinghua University, and
+   Zhongxu Liu of Hong Kong Polytechnic University for helpful discussions
+   and organizations. This work was supported by Overseas Research
+   Cooperation Fund of Tsinghua Shenzhen International Graduate School
+   (HW2020006) , and Youth Science and Technology Innovation Talent of
+   Guangdong Province (2019TQ05X227) .
+CR Abdallah W, 2020, OPT COMMUN, V454, DOI 10.1016/j.optcom.2019.124473
+   Akhoundi F, 2016, IEEE ACCESS, V4, P4254, DOI 10.1109/ACCESS.2016.2593398
+   Akiyama T, 2017, INT C INDOOR POSIT
+   Alfarozi SA, 2019, IEEE ACCESS, V7, P163262, DOI 10.1109/ACCESS.2019.2952465
+   Alshehri B, 2017, IEEE PHOTONICS J, V9, DOI 10.1109/JPHOT.2017.2714168
+   Alsulami O.Z., 2021, COMPUT COMMUN, P187, DOI [10.1007/978-3-030-72777-2_10, DOI 10.1007/978-3-030-72777-2_10]
+   Amran NA, 2020, IEEE INT CONF COMM, DOI 10.1109/iccworkshops49005.2020.9145364
+   Armstrong J, 2006, ELECTRON LETT, V42, P370, DOI 10.1049/el:20063636
+   Armstrong J, 2013, IEEE COMMUN MAG, V51, P68, DOI 10.1109/MCOM.2013.6685759
+   Arrobo GE, 2011, IEEE ENG MED BIO, P2192, DOI 10.1109/IEMBS.2011.6090413
+   Assaidah A, 2020, OSA CONTINUUM, V3, P1163, DOI 10.1364/OSAC.391483
+   Assaidah A, 2020, IEEE PHOTONICS J, V12, DOI 10.1109/JPHOT.2020.2984564
+   Ayyash M, 2016, IEEE COMMUN MAG, V54, P64, DOI 10.1109/MCOM.2016.7402263
+   Butun B, 2008, APPL PHYS LETT, V92, DOI 10.1063/1.2837645
+   Cao HC, 2019, IEEE ELECTR DEVICE L, V40, P267, DOI 10.1109/LED.2018.2884934
+   Cao ZY, 2021, IEEE PHOTONIC TECH L, V33, P1022, DOI 10.1109/LPT.2021.3075090
+   Carrano JC, 1999, J ELECTRON MATER, V28, P325, DOI 10.1007/s11664-999-0035-9
+   Carrano JC, 1998, APPL PHYS LETT, V73, P2405, DOI 10.1063/1.122448
+   Carreira JFC, 2019, OPT EXPRESS, V27, pA1517, DOI 10.1364/OE.27.0A1517
+   Carruthers JB, 1996, IEEE J SEL AREA COMM, V14, P538, DOI 10.1109/49.490239
+   Celik A, 2019, IEEE WCNC
+   Chandrasekhar V, 2008, IEEE COMMUN MAG, V46, P59, DOI 10.1109/MCOM.2008.4623708
+   Chang YH, 2021, IEEE PHOTONICS J, V13, DOI 10.1109/JPHOT.2021.3092878
+   Chen C, 2019, APPL SCI-BASEL, V9, DOI 10.3390/app9132711
+   Chen C, 2019, IEEE WIREL COMMUN LE, V8, P568, DOI 10.1109/LWC.2018.2879924
+   Chen SWH, 2020, ACS PHOTONICS, V7, P2228, DOI 10.1021/acsphotonics.0c00764
+   Chen YJ, 2020, 2020 CONFERENCE ON LASERS AND ELECTRO-OPTICS PACIFIC RIM (CLEO-PR), DOI 10.1364/CLEOPR.2020.P1_26
+   Chen YF, 2015, J VAC SCI TECHNOL B, V33, DOI 10.1116/1.4921589
+   Chow CW, 2015, OPT EXPRESS, V23, P26080, DOI 10.1364/OE.23.026080
+   Chow CW, 2015, IEEE PHOTONICS J, V7, DOI 10.1109/JPHOT.2015.2476757
+   Chowdhury MZ, 2019, APPL SCI-BASEL, V9, DOI 10.3390/app9204367
+   Chuang YC, 2019, OPT EXPRESS, V27, P16377, DOI 10.1364/OE.27.016377
+   Chun Hong Kang, 2020, Applied Physics Express, V13, DOI 10.7567/1882-0786/ab58eb
+   Chun H, 2014, IEEE PHOTONIC TECH L, V26, P2035, DOI 10.1109/LPT.2014.2345256
+   Collins S, 2014, OPT LETT, V39, P1756, DOI 10.1364/OL.39.001756
+   Cossu G, 2014, 2014 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXHIBITION (OFC)
+   Cui KY, 2013, OPT COMMUN, V298, P59, DOI 10.1016/j.optcom.2013.02.018
+   Danakis C, 2012, IEEE GLOBE WORK, P1244, DOI 10.1109/GLOCOMW.2012.6477759
+   David K, 2019, IEEE VEH TECHNOL MAG, V14, P14, DOI 10.1109/MVT.2019.2922512
+   Deebak B, 2020, UNMANNED AERIAL VEHI
+   Deng R, 2020, PHYS STATUS SOLIDI-R, V14, DOI 10.1002/pssr.201900531
+   DEVAUX F, 1993, IEEE PHOTONIC TECH L, V5, P1288, DOI 10.1109/68.250046
+   Dissanayake SD, 2011, IEEE GLOBE WORK, P782, DOI 10.1109/GLOCOMW.2011.6162561
+   Do TH, 2019, IEEE ACCESS, V7, P7218, DOI 10.1109/ACCESS.2018.2890435
+   Du PF, 2019, IEEE ACCESS, V7, P93986, DOI 10.1109/ACCESS.2019.2928014
+   Du PF, 2018, IEEE PHOTONICS J, V10, DOI 10.1109/JPHOT.2018.2841831
+   Dursun I, 2016, ACS PHOTONICS, V3, P1150, DOI 10.1021/acsphotonics.6b00187
+   Edirisinghe S., 2019, P 2019 GLOBAL LIFI C, DOI [10.1109/GLC.2019.8864137, DOI 10.1109/GLC.2019.8864137]
+   Eroglu YS, 2015, 2015 IEEE 16TH ANNUAL WIRELESS AND MICROWAVE TECHNOLOGY CONFERENCE (WAMICON)
+   Farinola GM, 2011, CHEM SOC REV, V40, P3467, DOI 10.1039/c0cs00204f
+   Ferreira RXG, 2016, IEEE PHOTONIC TECH L, V28, P2023, DOI 10.1109/LPT.2016.2581318
+   Fuentes-Hernandez C, 2020, SCIENCE, V370, P698, DOI 10.1126/science.aba2624
+   Gao YL, 2019, OPT COMMUN, V435, P35, DOI 10.1016/j.optcom.2018.10.001
+   Giordani M, 2020, IEEE COMMUN MAG, V58, P55, DOI 10.1109/MCOM.001.1900411
+   Gomez A, 2016, J LIGHTWAVE TECHNOL, V34, P5332, DOI 10.1109/JLT.2016.2616844
+   Gomez A, 2016, J LIGHTWAVE TECHNOL, V34, P2510, DOI 10.1109/JLT.2016.2542158
+   Haas H, 2016, J LIGHTWAVE TECHNOL, V34, P1533, DOI 10.1109/JLT.2015.2510021
+   Hall EM, 2019, OPT EXPRESS, V27, P7997, DOI 10.1364/OE.27.007997
+   Hamza AS, 2017, IEEE ICC
+   Hao LL, 2019, OPT COMMUN, V442, P110, DOI 10.1016/j.optcom.2019.03.013
+   He JL, 2019, 2019 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXHIBITION (OFC)
+   He JY, 2020, J LIGHTWAVE TECHNOL, V38, P4632, DOI 10.1109/JLT.2020.2994576
+   He JY, 2019, OPT LETT, V44, P3745, DOI 10.1364/OL.44.003745
+   He J, 2021, OPT EXPRESS, V29, P27278, DOI 10.1364/OE.433485
+   He J, 2020, IEEE PHOTONIC TECH L, V32, P651, DOI 10.1109/LPT.2020.2991125
+   He XY, 2019, PHOTONICS RES, V7, pB41, DOI 10.1364/PRJ.7.000B41
+   Ho KT, 2018, OPT EXPRESS, V26, P3037, DOI 10.1364/OE.26.003037
+   Hong CY, 2020, IEEE PHOTONICS J, V12, DOI 10.1109/JPHOT.2020.2993031
+   Hosseinnezhad P, 2020, CHAOS SOLITON FRACT, V139, DOI 10.1016/j.chaos.2020.110279
+   Huang HJ, 2014, CHIN OPT LETT, V12, DOI 10.3788/COL201412.092301
+   Huang X, 2020, IEEE PHOTONICS J, V12, DOI 10.1109/JPHOT.2020.2979776
+   Hussain B, 2015, J LIGHTWAVE TECHNOL, V33, P5201, DOI 10.1109/JLT.2015.2499204
+   Islim MS, 2017, PHOTONICS RES, V5, pA35, DOI 10.1364/PRJ.5.000A35
+   Jauregui-Sánchez Y, 2018, APPL OPTICS, V57, pB67, DOI 10.1364/AO.57.000B67
+   Ji RN, 2018, APPL SCI-BASEL, V8, DOI 10.3390/app8040589
+   Jia XQ, 2020, AIP ADV, V10, DOI 10.1063/5.0007420
+   Jiang R, 2020, IEEE ACCESS, V8, P20363, DOI 10.1109/ACCESS.2020.2967461
+   Jovanov Emil, 2005, J Neuroeng Rehabil, V2, P6, DOI 10.1186/1743-0003-2-6
+   Karunatilaka D, 2015, IEEE COMMUN SURV TUT, V17, P1649, DOI 10.1109/COMST.2015.2417576
+   Khan LU, 2020, IEEE ACCESS, V8, P147029, DOI 10.1109/ACCESS.2020.3015289
+   Koonen T, 2020, PHILOS T R SOC A, V378, DOI 10.1098/rsta.2019.0192
+   Koonen T, 2018, J LIGHTWAVE TECHNOL, V36, P4486, DOI 10.1109/JLT.2018.2834374
+   Koonen T, 2018, J LIGHTWAVE TECHNOL, V36, P1459, DOI 10.1109/JLT.2017.2787614
+   Koonen T, 2016, J LIGHTWAVE TECHNOL, V34, P4802, DOI 10.1109/JLT.2016.2574855
+   Kuo YS, 2014, PROCEEDINGS OF THE 20TH ANNUAL INTERNATIONAL CONFERENCE ON MOBILE COMPUTING AND NETWORKING (MOBICOM '14), P447, DOI 10.1145/2639108.2639109
+   Le Minh H, 2009, IEEE PHOTONIC TECH L, V21, P1063, DOI 10.1109/LPT.2009.2022413
+   Lee C, 2015, OPT EXPRESS, V23, P29779, DOI 10.1364/OE.23.029779
+   Lee H, 2019, IEEE COMMUN MAG, V57, P35, DOI 10.1109/MCOM.2019.1800584
+   Lee H, 2018, OPT EXPRESS, V26, P18131, DOI 10.1364/OE.26.018131
+   Lee H, 2018, OPT EXPRESS, V26, P6222, DOI 10.1364/OE.26.006222
+   Li HY, 2019, IEEE ACCESS, V7, P48565, DOI 10.1109/ACCESS.2019.2908524
+   Li HL, 2014, IEEE PHOTONIC TECH L, V26, P119, DOI 10.1109/LPT.2013.2290026
+   Li J, 2018, APPL SCI-BASEL, V8, DOI 10.3390/app8122425
+   Li L., 2014, 11 USENIX
+   Lian JM, 2018, TRANS DISTRIB CONF
+   Lian J, 2019, J LIGHTWAVE TECHNOL, V37, P3324, DOI 10.1109/JLT.2019.2915302
+   Lim C, 2016, INT C TRANS OPT NETW
+   Lin BJ, 2017, OPT EXPRESS, V25, P4348, DOI 10.1364/OE.25.004348
+   Liu CX, 2021, IEEE J SEL AREA COMM, V39, P1116, DOI 10.1109/JSAC.2020.3018837
+   Liu W, 2020, 2020 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXPOSITION (OFC)
+   Liu X., 2018, P ASIA COMMUNICATION
+   Liu XY, 2018, OPT EXPRESS, V26, P19259, DOI 10.1364/OE.26.019259
+   Liu XY, 2017, IEEE PHOTONICS J, V9, DOI 10.1109/JPHOT.2017.2775648
+   Liu YF, 2012, OPT EXPRESS, V20, P23019, DOI 10.1364/OE.20.023019
+   Lu IC, 2016, IEEE PHOTONICS J, V8, DOI 10.1109/JPHOT.2016.2553839
+   Lu XY, 2019, PHYS SCRIPTA, V94, DOI 10.1088/1402-4896/ab0a9f
+   Lu XY, 2019, OPT EXPRESS, V27, P7822, DOI 10.1364/OE.27.007822
+   Lu XY, 2017, IEEE PHOTONICS J, V9, DOI 10.1109/JPHOT.2017.2748153
+   Lu ZJ, 2017, OPT EXPRESS, V25, P17971, DOI 10.1364/OE.25.017971
+   Ma J, 2019, IEEE PHOTONIC TECH L, V31, P935, DOI 10.1109/LPT.2019.2913662
+   Ma S, 2019, IEEE ACCESS, V7, P30588, DOI 10.1109/ACCESS.2019.2903375
+   MARSH GW, 1994, IEEE PHOTONIC TECH L, V6, P1268, DOI 10.1109/68.329659
+   Marshoud H, 2017, IEEE T WIREL COMMUN, V16, P6350, DOI 10.1109/TWC.2017.2722441
+   Martens M, 2011, APPL PHYS LETT, V98, DOI 10.1063/1.3595303
+   McKendry J.J., 2015, P 2015 IEEE SUMMER T, DOI [10.1109/PHOSST. 2015.7248252, DOI 10.1109/PHOSST.2015.7248252]
+   Mei SL, 2018, ACS APPL MATER INTER, V10, P5641, DOI 10.1021/acsami.7b17810
+   Miyazaki E, 1998, REV SCI INSTRUM, V69, P3751, DOI 10.1063/1.1149174
+   Monserrat JF, 2020, IEEE WIREL COMMUNN, DOI 10.1109/wcncw48565.2020.9124725
+   Monteiro E, 2014, J LIGHTWAVE TECHNOL, V32, P2053, DOI 10.1109/JLT.2014.2314358
+   Naeem A, 2018, PROCEEDINGS OF THE 2018 IEEE 4TH INTERNATIONAL SYMPOSIUM ON WIRELESS SYSTEMS WITHIN THE INTERNATIONAL CONFERENCES ON INTELLIGENT DATA ACQUISITION AND ADVANCED COMPUTING SYSTEMS (IDAACS-SWS), P103, DOI 10.1109/IDAACS-SWS.2018.8525567
+   Naribole S, 2017, IEEE INT CONF SENS, P253
+   Negra R, 2016, PROCEDIA COMPUT SCI, V83, P1274, DOI 10.1016/j.procs.2016.04.266
+   O'Brien DC, 2008, 2008 IEEE 19TH INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR AND MOBILE RADIO COMMUNICATIONS, P2987
+   Oh CW, 2016, OPT EXPRESS, V24, P19211, DOI 10.1364/OE.24.019211
+   Pepe A, 2020, ICCBN 2020: 2020 8TH INTERNATIONAL CONFERENCE ON COMMUNICATIONS AND BROADBAND NETWORKING / ICCET 2020: 2020 3RD INTERNATIONAL CONFERENCE ON COMMUNICATION ENGINEERING AND TECHNOLOGY, P29, DOI 10.1145/3390525.3390534
+   Pereiro J, 2009, IEEE J QUANTUM ELECT, V45, P617, DOI 10.1109/JQE.2009.2013140
+   Pham N. Q., 2019, 45th European Conference on Optical Communication (ECOC 2019)
+   Poon CCY, 2006, IEEE COMMUN MAG, V44, P73, DOI 10.1109/MCOM.2006.1632652
+   Rae K, 2018, OPT EXPRESS, V26, P31474, DOI 10.1364/OE.26.031474
+   Rae K, 2017, OPT EXPRESS, V25, P19179, DOI 10.1364/OE.25.019179
+   Rahaim MB, 2011, IEEE GLOBE WORK, P792, DOI 10.1109/GLOCOMW.2011.6162563
+   Rajagopal N, 2014, PROCEEDINGS OF THE 13TH INTERNATIONAL SYMPOSIUM ON INFORMATION PROCESSING IN SENSOR NETWORKS (IPSN' 14), P249, DOI 10.1109/IPSN.2014.6846757
+   Rajbhandari S, 2017, SEMICOND SCI TECH, V32, DOI 10.1088/1361-6641/32/2/023001
+   Rashidi A, 2018, IEEE ELECTR DEVICE L, V39, P520, DOI 10.1109/LED.2018.2803082
+   Raveendran N, 2019, IEEE T WIREL COMMUN, V18, P1115, DOI 10.1109/TWC.2018.2890057
+   Rhee HW, 2020, IEEE PHOTONIC TECH L, V32, P803, DOI 10.1109/LPT.2020.2998162
+   Riurean S, 2019, J MED SYST, V43, DOI 10.1007/s10916-019-1434-y
+   Ruan C, 2016, NANOMATERIALS-BASEL, V6, DOI 10.3390/nano6010013
+   Ryou JH, 2008, APPL PHYS LETT, V92, DOI 10.1063/1.2894514
+   Sajjad MT, 2015, ACS PHOTONICS, V2, P194, DOI 10.1021/ph500451y
+   Saron KMA, 2013, SUPERLATTICE MICROST, V64, P88, DOI 10.1016/j.spmi.2013.08.024
+   See YC, 2016, PROCEEDINGS OF THE 2016 IEEE REGION 10 CONFERENCE (TENCON), P186, DOI 10.1109/TENCON.2016.7847986
+   Shafin R, 2020, IEEE WIREL COMMUN, V27, P212, DOI 10.1109/MWC.001.1900323
+   Shen C, 2017, APPL PHYS EXPRESS, V10, DOI 10.7567/APEX.10.042201
+   Shen C, 2016, OPT EXPRESS, V24, P20281, DOI 10.1364/OE.24.020281
+   Shen JN, 2018, OPT EXPRESS, V26, P23565, DOI 10.1364/OE.26.023565
+   Shi JW, 2008, IEEE ELECTR DEVICE L, V29, P158, DOI 10.1109/LED.2007.914070
+   Shi J, 2019, J LIGHTWAVE TECHNOL, V37, P4401, DOI 10.1109/JLT.2019.2924935
+   Shi JW, 2016, IEEE ELECTR DEVICE L, V37, P894, DOI 10.1109/LED.2016.2573265
+   Shi M, 2019, IEEE PHOTONICS J, V11, DOI 10.1109/JPHOT.2019.2928827
+   Song SH, 2021, OPT EXPRESS, V29, P16887, DOI 10.1364/OE.422851
+   Su CY, 2020, ACS APPL ELECTRON MA, V2, P3017, DOI 10.1021/acsaelm.0c00619
+   Su YK, 2001, JPN J APPL PHYS 1, V40, P2996, DOI 10.1143/JJAP.40.2996
+   Sun YY, 2020, IEEE COMMUN SURV TUT, V22, P2694, DOI 10.1109/COMST.2020.3011561
+   Sung JY, 2015, OPT COMMUN, V355, P261, DOI 10.1016/j.optcom.2015.06.070
+   Tait AN, 2017, SCI REP-UK, V7, DOI 10.1038/s41598-017-07754-z
+   Takizawa K, 2008, IEEE ENG MED BIO, P1549, DOI 10.1109/IEMBS.2008.4649465
+   Tian PF, 2017, OPT EXPRESS, V25, P1193, DOI 10.1364/OE.25.001193
+   Tiwari SV, 2017, PHOTONIC NETW COMMUN, V33, P52, DOI 10.1007/s11107-015-0600-5
+   Tota P, 2020, E-HEALTH BIOENG CONF
+   Tran HQ, 2019, APPL SCI-BASEL, V9, DOI 10.3390/app9061048
+   Tsiatmas A, 2014, IEEE COMMUN MAG, V52, P64, DOI 10.1109/MCOM.2014.6852085
+   Tsonev D, 2014, IEEE PHOTONIC TECH L, V26, P637, DOI 10.1109/LPT.2013.2297621
+   Tsujimura T., 2004, P C OPT MICR MAT DEV
+   Tulchinsky DA, 2004, IEEE J SEL TOP QUANT, V10, P702, DOI 10.1109/JSTQE.2004.831951
+   Vegni AM, 2012, INT C INDOOR POSIT
+   Vucic J, 2010, 2010 CONFERENCE ON OPTICAL FIBER COMMUNICATION OFC COLLOCATED NATIONAL FIBER OPTIC ENGINEERS CONFERENCE OFC-NFOEC
+   Walker D, 1999, APPL PHYS LETT, V74, P762, DOI 10.1063/1.123303
+   Wang GQ, 2018, J LIGHTWAVE TECHNOL, V36, P4618, DOI 10.1109/JLT.2018.2832200
+   Wang K, 2016, IEEE PHOTONIC TECH L, V28, P790, DOI 10.1109/LPT.2015.2514102
+   Wang K, 2010, OPT EXPRESS, V18, P25199, DOI 10.1364/OE.18.025199
+   Wang L, 2021, PHOTONICS RES, V9, P792, DOI 10.1364/PRJ.411863
+   Wang L, 2021, LASER PHOTONICS REV, V15, DOI 10.1002/lpor.202000406
+   Wang Q, 2015, OPT EXPRESS, V23, P12382, DOI 10.1364/OE.23.012382
+   Wang WC, 2019, NANOPHOTONICS-BERLIN, V8, P2189, DOI 10.1515/nanoph-2019-0205
+   Wang YR, 2022, IEEE SENS J, V22, P4800, DOI 10.1109/JSEN.2021.3057103
+   Wang YQ, 2013, OPT EXPRESS, V21, P1203, DOI 10.1364/OE.21.001203
+   Wang Z., 2020, P ASIA COMMUNICATION
+   Wang ZM, 2021, ACS APPL MATER INTER, V13, P54143, DOI 10.1021/acsami.1c15873
+   Wang Z, 2020, OPT COMMUN, V458, DOI 10.1016/j.optcom.2019.124733
+   Wei Hong, 2021, IEEE Journal of Microwaves, V1, P101, DOI 10.1109/JMW.2020.3035541
+   Wei LY, 2020, ELECTRON LETT, V56, P945, DOI 10.1049/el.2020.1379
+   Wei Z., 2018, P AS COMM PHOT C ACP, P1
+   Wei Z., 2019, P 2019 ASIA COMMUNIC
+   Wei ZX, 2020, 2020 OPTICAL FIBER COMMUNICATIONS CONFERENCE AND EXPOSITION (OFC)
+   Wei ZX, 2021, OPT EXPRESS, V29, P3891, DOI 10.1364/OE.412348
+   Wei ZX, 2020, APPL OPTICS, V59, P6094, DOI 10.1364/AO.391367
+   Wei ZX, 2019, ASIA COMMUN PHOTON
+   Wei ZX, 2020, OPT LETT, V45, P2616, DOI 10.1364/OL.393664
+   Wu P., 2015, P 2015 14 INT C OPT, DOI [10.1109/ICOCN.2015.7203712, DOI 10.1109/ICOCN.2015.7203712]
+   Wu TY, 2017, IEEE ACCESS, V5, P11413, DOI 10.1109/ACCESS.2017.2716344
+   Wu TZ, 2018, APPL SCI-BASEL, V8, DOI 10.3390/app8091557
+   Wu YC, 2020, IEEE ACCESS, V8, P214269, DOI 10.1109/ACCESS.2020.3041192
+   Xiao H, 2018, IEEE PHOTONICS J, V10, DOI 10.1109/JPHOT.2018.2872565
+   Xiao XT, 2016, OPT EXPRESS, V24, P21577, DOI 10.1364/OE.24.021577
+   Xie EY, 2019, J LIGHTWAVE TECHNOL, V37, P1180, DOI 10.1109/JLT.2018.2889380
+   Xu GY, 1997, APPL PHYS LETT, V71, P2154, DOI 10.1063/1.119366
+   Yang HL, 2020, IEEE T IND INFORM, V16, P5565, DOI 10.1109/TII.2019.2933867
+   Yang P, 2019, IEEE NETWORK, V33, P70, DOI 10.1109/MNET.2019.1800418
+   Yang Q, 2019, ACM T INTEL SYST TEC, V10, DOI 10.1145/3298981
+   Yang SH, 2014, J LIGHTWAVE TECHNOL, V32, P2480, DOI 10.1109/JLT.2014.2327623
+   Yasir M, 2014, J LIGHTWAVE TECHNOL, V32, P3306, DOI 10.1109/JLT.2014.2344772
+   Yassin A, 2017, IEEE COMMUN SURV TUT, V19, P1327, DOI 10.1109/COMST.2016.2632427
+   Ying Loong Lee, 2021, IEEE Open Journal of Vehicular Technology, V2, P54, DOI 10.1109/OJVT.2020.3044569
+   Yoshida K, 2020, NAT COMMUN, V11, DOI 10.1038/s41467-020-14880-2
+   Yoshikawa M, 2005, ELEC COMP C, P1353
+   Yuce MR, 2010, SENSOR ACTUAT A-PHYS, V162, P116, DOI 10.1016/j.sna.2010.06.004
+   Zeng J, 2009, MIDWEST SYMP CIRCUIT, P148, DOI 10.1109/MWSCAS.2009.5236130
+   Zeng LB, 2009, IEEE J SEL AREA COMM, V27, P1654, DOI 10.1109/JSAC.2009.091215
+   Zhang JL, 2016, PR IEEE I C PROGR IN, P757, DOI 10.1109/PIC.2016.7949600
+   Zhang L, 2020, 2020 CONFERENCE ON LASERS AND ELECTRO-OPTICS PACIFIC RIM (CLEO-PR), DOI 10.1364/CLEOPR.2020.C3F_5
+   Zhang L, 2021, OPT COMMUN, V486, DOI 10.1016/j.optcom.2021.126774
+   Zhang L, 2020, OPT EXPRESS, V28, P38223, DOI 10.1364/OE.412371
+   Zhang L, 2020, OPT EXPRESS, V28, P31796, DOI 10.1364/OE.405417
+   Zhang L, 2019, CHINA COMMUN, V16, P1, DOI 10.23919/JCC.2019.08.001
+   Zhang SL, 2013, J LIGHTWAVE TECHNOL, V31, P1211, DOI 10.1109/JLT.2013.2246138
+   Zhang SK, 2002, APPL PHYS LETT, V81, P4628, DOI 10.1063/1.1527994
+   Zhang W., 2012, 2012 IEEE Photonics Society Summer Topical Meeting Series, P80, DOI 10.1109/PHOSST.2012.6280711
+   Zhang Y, 2016, APPL PHYS LETT, V108, DOI 10.1063/1.4940396
+   Zhang YL, 2018, ACS APPL MATER INTER, V10, P34418, DOI 10.1021/acsami.8b05950
+   Zhou YQ, 2020, DIGIT COMMUN NETW, V6, P253, DOI 10.1016/j.dcan.2020.05.003
+   Zhou Z, 2012, OPT ENG, V51, DOI 10.1117/1.OE.51.8.085009
+   Zhu SC, 2017, APPL PHYS LETT, V111, DOI 10.1063/1.4993230
+NR 223
+TC 12
+Z9 12
+U1 22
+U2 83
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0079-6727
+EI 1873-1627
+J9 PROG QUANT ELECTRON
+JI Prog. Quantum Electron.
+PD MAY
+PY 2022
+VL 83
+AR 100398
+DI 10.1016/j.pquantelec.2022.100398
+PG 27
+WC Engineering, Electrical & Electronic; Quantum Science & Technology;
+   Optics; Physics, Applied
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Physics; Optics
+GA 2L4KH
+UT WOS:000816985900003
+DA 2023-10-21
+ER
+
+PT J
+AU Eskandari, M
+   Savkin, AV
+   Ni, W
+AF Eskandari, Mohsen
+   Savkin, Andrey V.
+   Ni, Wei
+TI Consensus-Based Autonomous Navigation of a Team of RIS-Equipped UAVs for
+   LoS Wireless Communication With Mobile Nodes in High-Density Areas
+SO IEEE TRANSACTIONS ON AUTOMATION SCIENCE AND ENGINEERING
+LA English
+DT Article
+DE Navigation; Wireless communication; Trajectory; Autonomous aerial
+   vehicles; Urban areas; Autonomous robots; Communication system security;
+   Autonomous navigation; reconfigurable intelligent surfaces (RISs);
+   optimal trajectory; path planning; unmanned aerial vehicles (UAVs);
+   wireless communication
+ID RECONFIGURABLE INTELLIGENT SURFACES
+AB The reconfigurable intelligent surface (RIS) technology has gained increased attention for improving the performance and efficiency of the fifth-generation (5G) millimeter-wave (mmWave) wireless communication by obviating the propagation and blockage issues. On the other hand, the great flexibility of unmanned aerial vehicles (UAVs) has made them effective gadgets to enhance the coverage of wireless communication networks. Combining these two emerging technologies, the RIS-outfitted UAV (RISoUAV) is a promising solution for providing line-of-sight (LoS) wireless links for mobile targets (MTs) in obstructed high-dense urban areas. In this light, high-speed real-time communication is essential for some vital municipal services like ambulances, fire engines, security guards, police, etc. This important goal is achievable thanks to the RISoUAV-assisted 5G/quasi-optic wireless communication. This paper develops a framework for optimal navigation of a team of RISoUAVs for maintaining LoS links with a team of ground vehicles in a dense urban area. The trajectories of the RISoUAVs are optimized considering the energy efficiency, communication channel gains, and constraints associated with RISoUAVs motion and LoS service. A consensus-based coordinating approach is adopted to coordinate the RISoUAVs navigation to cover all MTs under a good quality of service. Simulation results show the effectiveness of the method. Note to Practitioners-In this paper, we consider a scenario where vehicles need to have high-speed, uninterrupted data links in obstructed, highly dense urban environments. Due to spectrum crunch, the data links are increasingly likely to rely on a high-frequency spectrum, including mmWave with quasi-optic nature, visible light communications, or even laser. However, the obstructed LoS and propagation are critical issues with the 5G and beyond as they rely on the availability of an unobstructed path (e.g., the LoS or a quality reflective path). On the other hand, the RIS performs as a passive reflective element that provides an indirect LoS link, a one-bounce channel, to improve the performance and efficiency of mmWave, and beyond, wireless communication networks. UAVs equipped with RISs are suggested in this paper to be adopted as aerial transponders to reflect signals and facilitate communication in high-density environments. Therefore, the problem of UAV navigation and 3D trajectory planning should be addressed regarding the application, particularly, for providing LoS service for mobile vehicles with arbitrary directions. Autonomous navigation of RISoUAVs for LoS wireless communication is a natural multi-dimensional extension of autonomous navigation with obstacle avoidance where regions in which LoS communication is lost are viewed as obstacles to avoid. However, the environment and valid LoS links can change dynamically due to moving vehicles in the obstructed environment. This makes the navigation design an NP-hard problem that is tackled in this paper by developing an effective navigation program.
+C1 [Eskandari, Mohsen; Savkin, Andrey V.] Univ New South Wales, Sch Elect Engn & Telecommun, Sydney, NSW, Australia.
+   [Ni, Wei] CSIRO, Data61, Marsfield, NSW, Australia.
+C3 University of New South Wales Sydney; Commonwealth Scientific &
+   Industrial Research Organisation (CSIRO)
+RP Eskandari, M (corresponding author), Univ New South Wales, Sch Elect Engn & Telecommun, Sydney, NSW, Australia.
+EM m.eskandari@unsw.edu.au; a.savkin@unsw.edu.au; wei.ni@data61.csiro.au
+RI Ni, Wei/B-7489-2011; Eskandari, Mohsen/I-1161-2019
+OI Eskandari, Mohsen/0000-0003-1185-9585; Savkin,
+   Andrey/0000-0001-9390-6634
+FU Australian Research Council; Australian Government [AUSMURIB000001];
+   Office of Naval Research Multidisciplinary University Research
+   Initiatives Program (ONR MURI) [N00014-19-1-2571]
+FX This work was supported in part by the Australian Research Council and
+   in part by the Australian Government under Grant AUSMURIB000001
+   associated with the Office of Naval Research Multidisciplinary
+   University Research Initiatives Program (ONR MURI) Grant
+   N00014-19-1-2571.
+CR Abdalla A. S., 2020, ARXIV
+   Alfattani S, 2021, IEEE COMMUN MAG, V59, P96, DOI 10.1109/MCOM.001.2000350
+   Basar E, 2019, IEEE ACCESS, V7, P116753, DOI 10.1109/ACCESS.2019.2935192
+   Carrillo LRG, 2015, IEEE T AERO ELEC SYS, V51, P358, DOI 10.1109/TAES.2014.130607
+   Cho OH, 2015, INT CONF ADV COMMUN, P604, DOI 10.1109/ICACT.2015.7224868
+   Diamanti M, 2020, IEEE INT WORK SIGN P, P621, DOI 10.1109/SPAWC51858.2021.9593111
+   ElMossallamy MA, 2020, IEEE T COGN COMMUN, V6, P990, DOI 10.1109/TCCN.2020.2992604
+   Eskandari M, 2022, INT CONF COMPUT AUTO, P195, DOI 10.1109/ICCAE55086.2022.9762421
+   Huang CW, 2019, IEEE T WIREL COMMUN, V18, P4157, DOI 10.1109/TWC.2019.2922609
+   Li SX, 2020, IEEE WIREL COMMUN LE, V9, P716, DOI 10.1109/LWC.2020.2966705
+   Liu X, 2021, IEEE J SEL AREA COMM, V39, P2042, DOI 10.1109/JSAC.2020.3041401
+   Long H, 2020, Arxiv, DOI arXiv:2005.10559
+   Oh H, 2015, IEEE T AERO ELEC SYS, V51, P1501, DOI 10.1109/TAES.2015.140044
+   Samir M, 2021, IEEE T VEH TECHNOL, V70, P3978, DOI 10.1109/TVT.2021.3063953
+   Savkin AV, 2020, IEEE WIREL COMMUN LE, V9, P1211, DOI 10.1109/LWC.2020.2986291
+   Song J.-H., 2022, IEEE T VEH TECHNOL, DOI [10.1109/TVT.2022.3166183.[19]H, DOI 10.1109/TVT.2022.3166183.[19]H]
+   Tang WK, 2021, IEEE T WIREL COMMUN, V20, P421, DOI 10.1109/TWC.2020.3024887
+   Tang X, 2021, IEEE T VEH TECHNOL, V70, P6232, DOI 10.1109/TVT.2021.3077662
+   Tariq F, 2020, IEEE WIREL COMMUN, V27, P118, DOI 10.1109/MWC.001.1900488
+   Wang JK, 2020, IEEE T AUTOM SCI ENG, V17, P1748, DOI 10.1109/TASE.2020.2976560
+   Xie X., 2022, IEEE T IND ELECTRON, DOI [10.1109/TIE.2022.3152012.[22]X, DOI 10.1109/TIE.2022.3152012.[22]X]
+   Zeng Y, 2017, IEEE T WIREL COMMUN, V16, P3747, DOI 10.1109/TWC.2017.2688328
+   Zhang HL, 2020, IEEE T VEH TECHNOL, V69, P4498, DOI 10.1109/TVT.2020.2973073
+   Zhao XC, 2019, IEEE ACCESS, V7, P91367, DOI 10.1109/ACCESS.2019.2927000
+   Zhou XB, 2021, IEEE T AUTOM SCI ENG, V18, P1575, DOI 10.1109/TASE.2020.3010887
+NR 25
+TC 0
+Z9 0
+U1 5
+U2 5
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1545-5955
+EI 1558-3783
+J9 IEEE T AUTOM SCI ENG
+JI IEEE Trans. Autom. Sci. Eng.
+PD APR
+PY 2023
+VL 20
+IS 2
+BP 923
+EP 935
+DI 10.1109/TASE.2022.3183335
+PG 13
+WC Automation & Control Systems
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems
+GA D7CW8
+UT WOS:000970279600016
+DA 2023-10-21
+ER
+
+EF
