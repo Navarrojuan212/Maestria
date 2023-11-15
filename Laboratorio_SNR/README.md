@@ -1,4 +1,4 @@
-# SNR vs Tiempo en la terraza
+# SNR vs Tiempo
 
 Sobre los archivos:
 
@@ -6,6 +6,6 @@ Sobre los archivos:
 > El documento `SDRSharp_20230815_125846Z_SNR_103_5MHz.csv` corresponde a la imagen  `NO_LAB.jpg` 
 
 > [!IMPORTANT]  
-> El documento `SDRSharp_20230815_130127Z_SNR_103_5MHz_LAB.csv` es sobre `SNR vs Tiempo en la terraza` dentro del Laboratorio.
+> El documento `SDRSharp_20230815_130127Z_SNR_103_5MHz_LAB.csv` ocurrió en un escenario indoor; dentro de un Laboratorio.
 
 
