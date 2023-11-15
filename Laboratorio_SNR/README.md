@@ -1,6 +1,6 @@
-# Sobre los archivos
+# SNR vs Tiempo en la terraza
 
-Sobre `SNR vs Tiempo en la terraza`
+Sobre los archivos:
 
 > [!NOTE]  
 > El documento `SDRSharp_20230815_125846Z_SNR_103_5MHz.csv` corresponde a la imagen  `NO_LAB.jpg` 
