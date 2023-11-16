@@ -1,4 +1,4 @@
-# Análisis de la Relación Señal-Ruido (SNR)
+# Análisis de la Relación Señal a Ruido (SNR)
 
 ## Descripción General
 
