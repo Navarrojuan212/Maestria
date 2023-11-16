@@ -2,7 +2,7 @@
 
 ## Descripción General
 
-Este repositorio contiene un script en Python para visualizar datos de la Relación Señal a Ruido (*SNR*) a lo largo del tiempo. El análisis está enfocado en los reisultados de la maestría para comparaciones futuras.
+Este repositorio contiene un script en Python para visualizar datos de la Relación Señal a Ruido (*SNR*) a lo largo del tiempo. El análisis está enfocado en los resultados de la maestría para comparaciones futuras.
 
 ## Prerrequisitos
 
