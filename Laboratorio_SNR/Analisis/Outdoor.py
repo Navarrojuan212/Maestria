@@ -23,7 +23,7 @@ plt.ylabel('SNR (dB)')
 plt.title('SNR vs. Tiempo (Seg) --- Outdoor')
 plt.legend()
 plt.tight_layout()
-plt.savefig('SNR_vs_Time__Outdoor.png')
+plt.savefig('SNR_vs_Time_Outdoor.png')
 #plt.show()
 
 # Crear un gráfico de dispersión para SNR vs. Tiempo Transcurrido
@@ -31,11 +31,11 @@ plt.figure(figsize=(12, 6))
 plt.scatter(data['Elapsed Time (s)'], data['SNR'], label='SNR', color='green')
 plt.xlabel('Tiempo (Seg)')
 plt.ylabel('SNR (dB)')
-plt.title('Gráfico Dispersión de SNR vs Tiempo Transcurrido --- Outdoor')
+plt.title('Dispersión de SNR vs Tiempo - Outdoor')
 plt.legend()
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig('Scatter_Plot_of_SNR_over_Time__Outdoor.png')
+plt.savefig('Dispersion_SNR_vs_Tiempo_Outdoor.png')
 #plt.show()
 
 # Crear el histograma de SNR
@@ -44,21 +44,25 @@ plt.figure(figsize=(12, 6))
 plt.hist(data['SNR'], bins=30, color='purple')
 plt.xlabel('SNR (dB)')
 plt.ylabel('Frecuencia')
-plt.title('Histograma de SNR  --- Outdoor')
+plt.title('Histograma SNR - Outdoor')
 plt.tight_layout()
-plt.savefig('Histogram_of_SNR_Outdoor.png')
+plt.savefig('Histograma_SNR_Outdoor.png')
 #plt.show()
 
 
 # Calculamos los cuartiles y el IQR para SNR
-q1 = np.percentile(data['SNR'], 25)  # Primer cuartil (Q1)
-q3 = np.percentile(data['SNR'], 75)  # Tercer cuartil (Q3)
-mediana = np.median(data['SNR'])     # Mediana (Q2)
+q1 = np.percentile(data['SNR'], 25)  # Primer cuartil (Q1 = q_L)
+q3 = np.percentile(data['SNR'], 75)  # Tercer cuartil (Q3 = q_U)
+mediana = np.median(data['SNR'])     # Mediana (Q2 = q_M)
 iqr = q3 - q1                         # Rango intercuartilico (IQR)
 
 # Determinamos los extremos de los bigotes
 bigote_inferior = q1 - 1.5 * iqr
 bigote_superior = q3 + 1.5 * iqr
+print(f"$Inferior = {bigote_inferior}$\n"+
+      f"$Superior = {bigote_superior}$")
+
+print(f"$IQR={iqr}$")
 
 # Identificamos los valores atípicos
 outliers = data['SNR'][(data['SNR'] < bigote_inferior) | (data['SNR'] > bigote_superior)]
@@ -85,11 +89,11 @@ plt.plot([1, 1], [bigote_inferior, bigote_superior], color='black', linestyle='-
 plt.plot(np.full(outliers.shape, 1), outliers, 'ro')
 
 # Añadimos títulos y etiquetas
-plt.title('Diagrama de Caja de SNR ')
+plt.title('Boxplot SNR - Outdoor ')
 plt.xticks([1], ['SNR'])
 plt.ylabel('SNR (dB)')
 
 # Guardar y mostrar el boxplot
 plt.tight_layout()
-plt.savefig('Boxplot_of_SNR_Outdoor.png')
+plt.savefig('Boxplot_SNR_Outdoor.png')
 #plt.show()

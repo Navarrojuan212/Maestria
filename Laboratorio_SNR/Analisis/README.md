@@ -11,6 +11,7 @@ Antes de ejecutar el script, asegúrate de que las siguientes bibliotecas estén
 - pandas
 - matplotlib
 - seaborn
+- numpy
 
 Puedes instalar estos paquetes usando `apt` en este caso para Debian:
 
@@ -51,7 +52,7 @@ Para ejecutar el script, puedes establecer la variable de entorno y ejecutar el 
 ```bash
 export CSV_PATH=/ruta/a/tu/archivo/snr_data.csv
 
-python3 analysis.py
+python3 Outdoor.py
 ```
 
 Reemplaza `/ruta/a/tu/archivo/snr_data.csv` con la ruta real a tu archivo `.CSV`.
