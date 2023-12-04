@@ -3,9 +3,9 @@
 Sobre los archivos:
 
 > [!NOTE]  
-> El documento `SDRSharp_20230815_125846Z_SNR_103_5MHz.csv` corresponde a la imagen  `NO_LAB.jpg` 
+> El documento `SNR_103_5MHz_Oudoor.csv` corresponde a la imagen  `Outdoor.jpg` 
 
 > [!IMPORTANT]  
-> El documento `SDRSharp_20230815_130127Z_SNR_103_5MHz_LAB.csv` ocurrió en un escenario indoor; dentro de un Laboratorio.
+> El documento `SNR_103_5MHz_Indoor.csv` ocurrió en un escenario indoor; dentro de un Laboratorio. corresponde a la imagen  `Indoor.jpg`
 
 
