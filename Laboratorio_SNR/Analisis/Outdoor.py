@@ -95,5 +95,5 @@ plt.ylabel('SNR (dB)')
 
 # Guardar y mostrar el boxplot
 plt.tight_layout()
-plt.savefig('Boxplot_SNR_Outdoor.png')
+plt.savefig('img/Boxplot_SNR_Outdoor.png')
 #plt.show()

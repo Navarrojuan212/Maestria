@@ -74,7 +74,7 @@ bp_indoor = plt.boxplot(data1['SNR'], vert=True, patch_artist=True, showfliers=F
 bp_indoor['boxes'][0].set_facecolor('lightblue')
 
 # Anotamos los cuartiles y los valores atípicos
-plt.text(1.25, mediana_indoor, f'$Mediana = {mediana_indoor}$', va='center', ha='center', backgroundcolor='white', color='orange')
+plt.text(1.25, mediana_indoor, f'$Mediana = {mediana_indoor}$', va='center', ha='center', backgroundcolor='white', color='red')
 plt.text(1.2, q1_indoor, f'$q_L = {q1_indoor}$', va='center', ha='center', backgroundcolor='white')
 plt.text(1.2, q3_indoor, f'$q_U = {q3_indoor}$', va='center', ha='center', backgroundcolor='white')
 
@@ -94,7 +94,7 @@ plt.ylabel('SNR (dB)')
 
 # Guardar y mostrar el boxplot
 plt.tight_layout()
-plt.savefig('Boxplot_SNR_Indoor.png')
+plt.savefig('img/Boxplot_SNR_Indoor.png')
 #plt.show()
 
 # --------------------------

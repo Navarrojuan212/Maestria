@@ -29,22 +29,25 @@ q3_outdoor = np.percentile(outdoor_data['SNR'], 75)  # Q3
 median_outdoor = np.median(outdoor_data['SNR'])      # Median
 
 # Create the boxplot
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(8, 8))
 boxplot = sns.boxplot(x='Environment', y='SNR', data=combined_data, palette=["lightblue", "lightgreen"])
 
 # Annotate the quartiles and median for each box
-plt.text(0, q1_indoor, f'Q1={q1_indoor:.2f}', va='center', ha='center', backgroundcolor='white')
-plt.text(0, median_indoor, f'Median={median_indoor:.2f}', va='center', ha='center', backgroundcolor='white', color='orange')
-plt.text(0, q3_indoor, f'Q3={q3_indoor:.2f}', va='center', ha='center', backgroundcolor='white')
 
-plt.text(1, q1_outdoor, f'Q1={q1_outdoor:.2f}', va='center', ha='center', backgroundcolor='white')
-plt.text(1, median_outdoor, f'Median={median_outdoor:.2f}', va='center', ha='center', backgroundcolor='white', color='orange')
-plt.text(1, q3_outdoor, f'Q3={q3_outdoor:.2f}', va='center', ha='center', backgroundcolor='white')
+# Indoor
+plt.text(-0.35, q1_indoor-0.5, f'$q_L={q1_indoor:.2f} dB$', va='center', ha='center') ##, backgroundcolor='white')
+plt.text(0, median_indoor+0.4, f'$Median={median_indoor:.2f} dB$', va='center', ha='center', color='orange') ##, backgroundcolor='white')
+plt.text(0.52, q3_indoor+0.3, f'$q_U={q3_indoor:.2f} dB$', va='center', ha='center') ##, backgroundcolor='white')
+
+# Outdoor
+plt.text(1.5, q1_outdoor-0.3, f'$q_L={q1_outdoor:.2f} dB$', va='center', ha='center') ##, backgroundcolor='white')
+plt.text(1, median_outdoor-0.4, f'$Median={median_outdoor:.2f} dB$', va='center', ha='center',color='orange') ##  backgroundcolor='white',
+plt.text(0.4, q3_outdoor, f'$q_U={q3_outdoor:.2f} dB$', va='center', ha='center')  ##, backgroundcolor='white')
 
 # Finalize the plot with adjusted layout
-plt.title('Boxplot of SNR for Indoor and Outdoor Environments')
+plt.title('Boxplot SNR Indoor & Outdoor')
 plt.ylabel('SNR (dB)')
-plt.xlabel('Environment')
+plt.xlabel('Escenario')
 plt.tight_layout()  # Adjust the layout to make sure everything fits without overlapping
 
 # Save the plot to a file
