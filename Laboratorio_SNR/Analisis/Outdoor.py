@@ -97,3 +97,23 @@ plt.ylabel('SNR (dB)')
 plt.tight_layout()
 plt.savefig('img/Boxplot_SNR_Outdoor.png')
 #plt.show()
+
+## Violin
+# Asumiendo que tienes un DataFrame llamado 'data' y quieres graficar la columna 'SNR'
+plt.figure(figsize=(8, 10))  # Tamaño del gráfico ajustado para la orientación vertical
+
+# Dibujar el gráfico de violín con cuartiles
+sns.violinplot(y='SNR', data=data, inner='quartile', color='lightblue')
+
+# Superponer un boxplot con transparencia
+sns.boxplot(y='SNR', data=data, width=0.1, fliersize=0, linewidth=2, boxprops={'facecolor':'none', 'edgecolor':'black'}, whiskerprops={'color':'black'}, capprops={'color':'black'}, medianprops={'color':'black'})
+#sns.boxplot(y='SNR', data=data, width=0.1, fliersize=0, whis=0, linewidth=2, color='darkblue', boxprops=dict(alpha=.3))
+
+# Configuración del título y las etiquetas
+plt.title('Distribución de SNR - Interior')
+plt.ylabel('SNR (dB)')  # Etiqueta para el eje Y en lugar del eje X
+
+# Guardar y Mostrar el gráfico
+plt.tight_layout()
+plt.savefig('img/Violin_SNR_Outdoor.png')
+#plt.show()
