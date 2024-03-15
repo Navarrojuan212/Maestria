@@ -98,18 +98,18 @@ plt.tight_layout()
 plt.savefig('img/Boxplot_SNR_Outdoor.png')
 #plt.show()
 
-## Violin
+################################### Violin   ##############################################
 # Asumiendo que tienes un DataFrame llamado 'data' y quieres graficar la columna 'SNR'
 plt.figure(figsize=(8, 10))  # Ajustar para la orientación vertical
 
 # Dibujar el gráfico de violín con la línea de la mediana y los cuartiles
-sns.violinplot(y='SNR', data=data, inner='quartile', color='lightblue')
+sns.violinplot(y='SNR', data=data, inner='quartile', color='skyblue')
 
 # Superponer un boxplot con parámetros que lo hagan visible pero no opaco
 box = sns.boxplot(y='SNR', data=data, width=0.1, fliersize=0, linewidth=2,
                   boxprops={'facecolor':'none', 'edgecolor':'black'},
                   whiskerprops={'color':'black'}, capprops={'color':'black'},
-                  medianprops={'color':'black'}, showfliers=True)
+                  medianprops={'color':'red'}, showfliers=True)
 
 # Calcular los cuartiles y la mediana
 q1 = data['SNR'].quantile(0.25)
@@ -120,9 +120,11 @@ q3 = data['SNR'].quantile(0.75)
 outliers = data[(data['SNR'] < q1 - 1.5 * (q3 - q1)) | (data['SNR'] > q3 + 1.5 * (q3 - q1))]['SNR']
 
 # Añadir anotaciones para la mediana y los cuartiles
-plt.text(0.1, median, f'Mediana = {median:.2f}', verticalalignment='center', size='small', color='orange')
-plt.text(0.1, q1, f'Q1 = {q1:.2f}', verticalalignment='center', size='small', color='black')
-plt.text(0.1, q3, f'Q3 = {q3:.2f}', verticalalignment='center', size='small', color='black')
+plt.text(0.1, median+0.1, f'Mediana = {median:.2f} dB', verticalalignment='center', size='medium', color='red')
+plt.text(0.1, q1+0.1, f'Q1 = {q1:.2f} dB', verticalalignment='center', size='small', color='black')
+plt.text(0.1, q3+0.1, f'Q3 = {q3:.2f} dB', verticalalignment='center', size='small', color='black')
+
+
 
 # Anotar los valores atípicos
 for outlier in outliers:
