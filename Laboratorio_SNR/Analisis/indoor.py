@@ -97,12 +97,13 @@ plt.tight_layout()
 plt.savefig('img/Boxplot_SNR_Indoor.png')
 #plt.show()
 
-# --------------------------
-#plt.figure(figsize=(12, 6))
-#sns.boxplot(data['SNR'], color='orange')
-#plt.xlabel('SNR (dB)')
-#plt.title('Boxplot SNR -- Indoor')
-#plt.tight_layout()
-#plt.savefig('Boxplot_SNR_Indoor.png')
+# Gráfico de violín para visualizar la distribución de SNR
+plt.figure(figsize=(10, 6))  # Ajusta el tamaño del gráfico según necesites
+sns.violinplot(x=data1['SNR'])  # Cambia 'data1' por el nombre de tu DataFrame
+plt.title('Distribución de SNR - Interior')  # Ajusta el título según corresponda
+plt.xlabel('SNR')  # Etiqueta para el eje X
+
+# Guardar y mostrar el boxplot
+plt.tight_layout()
+plt.savefig('img/Violin_SNR_Indoor.png')
 #plt.show()
-# -----------------------------------
