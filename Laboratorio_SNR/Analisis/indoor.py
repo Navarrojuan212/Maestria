@@ -98,10 +98,30 @@ plt.savefig('img/Boxplot_SNR_Indoor.png')
 #plt.show()
 
 # Gráfico de violín para visualizar la distribución de SNR
-plt.figure(figsize=(10, 6))  # Ajusta el tamaño del gráfico según necesites
-sns.violinplot(x=data1['SNR'])  # Cambia 'data1' por el nombre de tu DataFrame
-plt.title('Distribución de SNR - Interior')  # Ajusta el título según corresponda
-plt.xlabel('SNR')  # Etiqueta para el eje X
+##plt.figure(figsize=(10, 6))  # Ajusta el tamaño del gráfico según necesites
+##sns.violinplot(x=data1['SNR'])  # Cambia 'data1' por el nombre de tu DataFrame
+##plt.title('Distribución de SNR - Interior')  # Ajusta el título según corresponda
+##plt.xlabel('SNR')  # Etiqueta para el eje X
+
+
+# Asumiendo que tienes un DataFrame llamado 'data' y quieres graficar la columna 'SNR'
+plt.figure(figsize=(10, 6))
+sns.violinplot(x='SNR', data=data1, inner = 'quartile', palette='muted')  # El argumento 'inner' se utiliza para mostrar los cuartiles
+#sns.violinplot(x='SNR', data=data1, inner='box', palette='muted')  # El argumento 'inner' se utiliza para mostrar los cuartiles
+
+# Calcular estadísticas como la mediana y los cuartiles
+median = data1['SNR'].median()
+q1 = data1['SNR'].quantile(0.25)
+q3 = data1['SNR'].quantile(0.75)
+
+# Añadir anotaciones para la mediana y los cuartiles
+plt.text(median + 0.1, 0.04, f'Mediana = {median}', horizontalalignment='left', size='medium', color='black', weight='semibold')
+plt.text(q1 - 0.1, 0.04, f'q1 = {q1}', horizontalalignment='right', size='medium', color='black', weight='semibold')
+plt.text(q3 + 0.1, 0.04, f'q3 = {q3}', horizontalalignment='left', size='medium', color='black', weight='semibold')
+
+plt.title('Distribución de SNR - Interior')
+plt.xlabel('SNR (dB)')
+#plt.show()
 
 # Guardar y mostrar el boxplot
 plt.tight_layout()
