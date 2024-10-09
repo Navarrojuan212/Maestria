@@ -66,7 +66,7 @@ blocks:
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 107.15e6
+    value: 103.5e6
     widget: counter_slider
   states:
     bus_sink: false
@@ -149,14 +149,14 @@ blocks:
     rangeType: float
     start: '0'
     step: '1'
-    stop: '80'
-    value: '40'
+    stop: '50'
+    value: '45'
     widget: counter_slider
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [840, 20.0]
+    coordinate: [816, 20.0]
     rotation: 0
     state: true
 - name: f_factor
@@ -183,7 +183,7 @@ blocks:
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 165.65e6
+    value: 142e6
     widget: counter_slider
   states:
     bus_sink: false
@@ -203,14 +203,14 @@ blocks:
     rangeType: float
     start: '0'
     step: '1'
-    stop: '80'
-    value: '40'
+    stop: '50'
+    value: '45'
     widget: counter_slider
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1216, 20.0]
+    coordinate: [1208, 20.0]
     rotation: 0
     state: true
 - name: samp_rate
@@ -237,7 +237,7 @@ blocks:
     start: '-40'
     step: '1'
     stop: '10'
-    value: '-10'
+    value: '-30'
     widget: counter_slider
   states:
     bus_sink: false
@@ -330,7 +330,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [368, 212.0]
+    coordinate: [392, 196.0]
     rotation: 0
     state: true
 - name: dc_blocker_xx_0_0
@@ -368,7 +368,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [568, 300.0]
+    coordinate: [664, 300.0]
     rotation: 0
     state: true
 - name: freq_xlating_fir_filter_xxx_0_0
@@ -884,7 +884,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [336, 332.0]
+    coordinate: [392, 332.0]
     rotation: 0
     state: true
 - name: qtgui_freq_sink_x_0_0
@@ -918,7 +918,7 @@ blocks:
     color9: '"dark green"'
     comment: ''
     ctrlpanel: 'True'
-    fc: Frec_RF_Out
+    fc: Frec_TxRx_A1
     fftsize: '1024'
     freqhalf: 'True'
     grid: 'False'
@@ -965,7 +965,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [488, 884.0]
+    coordinate: [1024, 180.0]
     rotation: 0
     state: true
 - name: uhd_usrp_sink_1_0
@@ -1079,7 +1079,7 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '"serial=30B584D"'
+    dev_addr: '"serial=30C2C26"'
     dev_args: ''
     gain0: Gain_TxRx_A1
     gain1: '0'
@@ -1356,7 +1356,7 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '"serial=30C2C26"'
+    dev_addr: '"serial=30B584D"'
     dev_args: ''
     gain0: gol
     gain1: gol
@@ -1489,7 +1489,7 @@ blocks:
     lo_source9: internal
     maxoutbuf: '0'
     minoutbuf: '0'
-    nchan: '2'
+    nchan: '1'
     num_mboards: '1'
     otw: ''
     samp_rate: samp_rate*f_factor
@@ -1591,8 +1591,8 @@ blocks:
     bw7: '0'
     bw8: '0'
     bw9: '0'
-    center_freq0: Frec_Tomada
-    center_freq1: ''
+    center_freq0: Frec_Tomada+250000
+    center_freq1: Frec_TxRx_A1
     center_freq10: '0'
     center_freq11: '0'
     center_freq12: '0'
@@ -1697,10 +1697,10 @@ blocks:
     dc_offs_enb7: default
     dc_offs_enb8: default
     dc_offs_enb9: default
-    dev_addr: '"serial=30B584D"'
+    dev_addr: '"serial=30C2C26"'
     dev_args: ''
     gain0: Gain
-    gain1: '0'
+    gain1: Gain_TxRx_A1
     gain10: '0'
     gain11: '0'
     gain12: '0'
@@ -1895,7 +1895,7 @@ blocks:
     minoutbuf: '0'
     nchan: '1'
     num_mboards: '1'
-    otw: ''
+    otw: sc12
     rx_agc0: Default
     rx_agc1: Default
     rx_agc10: Default
@@ -1941,7 +1941,7 @@ blocks:
     start_time: '-1.0'
     stream_args: ''
     stream_chans: '[]'
-    sync: sync
+    sync: none
     time_source0: ''
     time_source1: ''
     time_source2: ''
@@ -1961,18 +1961,18 @@ blocks:
 
 connections:
 - [analog_const_source_x_0, '0', uhd_usrp_sink_1_0_0, '0']
-- [analog_const_source_x_0, '0', uhd_usrp_sink_1_0_0, '1']
 - [analog_wfm_rcv_0, '0', low_pass_filter_0, '0']
 - [blocks_multiply_const_vxx_0, '0', audio_sink_0, '0']
 - [dc_blocker_xx_0, '0', freq_xlating_fir_filter_xxx_0, '0']
 - [dc_blocker_xx_0_0, '0', freq_xlating_fir_filter_xxx_0_0, '0']
+- [freq_xlating_fir_filter_xxx_0, '0', qtgui_freq_sink_x_0_0, '0']
 - [freq_xlating_fir_filter_xxx_0, '0', uhd_usrp_sink_1_0, '0']
 - [freq_xlating_fir_filter_xxx_0_0, '0', analog_wfm_rcv_0, '0']
 - [low_pass_filter_0, '0', blocks_multiply_const_vxx_0, '0']
 - [osmosdr_source_0, '0', dc_blocker_xx_0_0, '0']
-- [osmosdr_source_0, '0', qtgui_freq_sink_x_0_0, '0']
 - [uhd_usrp_source_0, '0', dc_blocker_xx_0, '0']
 - [uhd_usrp_source_0, '0', qtgui_freq_sink_x_0, '0']
 
 metadata:
   file_format: 1
+  grc_version: 3.10.5.1
