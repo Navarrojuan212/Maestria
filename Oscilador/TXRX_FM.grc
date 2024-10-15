@@ -53,11 +53,13 @@ blocks:
     label: Frecuencia de oscilador local
     min_len: '200'
     orient: QtCore.Qt.Horizontal
+    outputmsgname: value
     rangeType: float
+    showports: 'False'
     start: 80e6
     step: 0.1e6
     stop: 480e6
-    value: 165.65e6
+    value: 142e6
     widget: counter_slider
   states:
     bus_sink: false
@@ -74,7 +76,9 @@ blocks:
     label: Ganancia oscilador local
     min_len: '200'
     orient: QtCore.Qt.Horizontal
+    outputmsgname: value
     rangeType: float
+    showports: 'False'
     start: '0'
     step: '1'
     stop: '80'
@@ -261,7 +265,7 @@ blocks:
     clock_source6: ''
     clock_source7: ''
     comment: ''
-    dev_addr: '"serial=30B584D"'
+    dev_addr: '"serial=30B5874"'
     dev_args: ''
     gain0: gol
     gain1: '0'
@@ -433,4 +437,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: 3.10.5.1
+  grc_version: 3.10.4.0

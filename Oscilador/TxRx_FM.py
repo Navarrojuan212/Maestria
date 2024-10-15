@@ -7,7 +7,7 @@
 # GNU Radio Python Flow Graph
 # Title: Not titled yet
 # Author: captain
-# GNU Radio version: 3.10.5.1
+# GNU Radio version: 3.10.4.0
 
 from packaging.version import Version as StrictVersion
 
@@ -33,7 +33,7 @@ from gnuradio.eng_arg import eng_float, intx
 from gnuradio import eng_notation
 from gnuradio import uhd
 import time
-from gnuradio.qtgui import Range, RangeWidget
+from gnuradio.qtgui import Range, GrRangeWidget
 from PyQt5 import QtCore
 
 
@@ -78,21 +78,22 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
         ##################################################
         self.samp_rate = samp_rate = 48e3
         self.gol = gol = 40
-        self.fol = fol = 165.65e6
+        self.fol = fol = 142e6
         self.f_factor = f_factor = 40
 
         ##################################################
         # Blocks
         ##################################################
-
         self._gol_range = Range(0, 80, 1, 40, 200)
-        self._gol_win = RangeWidget(self._gol_range, self.set_gol, "Ganancia oscilador local", "counter_slider", float, QtCore.Qt.Horizontal)
+        self._gol_win = GrRangeWidget(self._gol_range, self.set_gol, "Ganancia oscilador local", "counter_slider", float, QtCore.Qt.Horizontal, "value")
+
         self.top_layout.addWidget(self._gol_win)
-        self._fol_range = Range(80e6, 480e6, 0.1e6, 165.65e6, 200)
-        self._fol_win = RangeWidget(self._fol_range, self.set_fol, "Frecuencia de oscilador local", "counter_slider", float, QtCore.Qt.Horizontal)
+        self._fol_range = Range(80e6, 480e6, 0.1e6, 142e6, 200)
+        self._fol_win = GrRangeWidget(self._fol_range, self.set_fol, "Frecuencia de oscilador local", "counter_slider", float, QtCore.Qt.Horizontal, "value")
+
         self.top_layout.addWidget(self._fol_win)
         self.uhd_usrp_sink_0 = uhd.usrp_sink(
-            ",".join(("serial=30B584D", '')),
+            ",".join(("serial=30B5874", '')),
             uhd.stream_args(
                 cpu_format="fc32",
                 args='',
