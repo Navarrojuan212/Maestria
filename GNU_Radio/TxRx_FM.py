@@ -272,7 +272,7 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
                 window.WIN_HAMMING,
                 6.76))
         self.freq_xlating_fir_filter_xxx_0_0 = filter.freq_xlating_fir_filter_ccc(4, firdes.low_pass(1,samp_rate*f_factor,140e3,10e3), (-250e3), (samp_rate*f_factor))
-        self.freq_xlating_fir_filter_xxx_0 = filter.freq_xlating_fir_filter_ccc(1, firdes.low_pass(1,samp_rate*f_factor,140e3,10e3), (-250e3), (samp_rate*f_factor))
+        self.freq_xlating_fir_filter_xxx_0 = filter.freq_xlating_fir_filter_ccc(1, firdes.low_pass(1,samp_rate*f_factor,135e3,10e3), (-250e3), (samp_rate*f_factor))
         self.dc_blocker_xx_0_0 = filter.dc_blocker_cc(32, True)
         self.dc_blocker_xx_0 = filter.dc_blocker_cc(32, True)
         self.blocks_multiply_const_vxx_0 = blocks.multiply_const_ff((10**(vol/10)))
@@ -327,7 +327,7 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
 
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
-        self.freq_xlating_fir_filter_xxx_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,140e3,10e3))
+        self.freq_xlating_fir_filter_xxx_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,135e3,10e3))
         self.freq_xlating_fir_filter_xxx_0_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,140e3,10e3))
         self.low_pass_filter_0.set_taps(firdes.low_pass(1, (self.samp_rate*self.f_factor/8), 15e3, 3e3, window.WIN_HAMMING, 6.76))
         self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec_Tomada, (self.samp_rate*self.f_factor))
@@ -357,7 +357,7 @@ class TxRx_FM(gr.top_block, Qt.QWidget):
 
     def set_f_factor(self, f_factor):
         self.f_factor = f_factor
-        self.freq_xlating_fir_filter_xxx_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,140e3,10e3))
+        self.freq_xlating_fir_filter_xxx_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,135e3,10e3))
         self.freq_xlating_fir_filter_xxx_0_0.set_taps(firdes.low_pass(1,self.samp_rate*self.f_factor,140e3,10e3))
         self.low_pass_filter_0.set_taps(firdes.low_pass(1, (self.samp_rate*self.f_factor/8), 15e3, 3e3, window.WIN_HAMMING, 6.76))
         self.qtgui_freq_sink_x_0.set_frequency_range(self.Frec_Tomada, (self.samp_rate*self.f_factor))

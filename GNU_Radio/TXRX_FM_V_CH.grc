@@ -362,7 +362,7 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     samp_rate: samp_rate*f_factor
-    taps: firdes.low_pass(1,samp_rate*f_factor,140e3,10e3)
+    taps: firdes.low_pass(1,samp_rate*f_factor,135e3,10e3)
     type: ccc
   states:
     bus_sink: false
@@ -1976,4 +1976,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: 3.10.9.2
+  grc_version: 3.10.5.1
